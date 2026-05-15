@@ -1,0 +1,64 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://happimess.com/#organization",
+  "name": "Happimess",
+  "url": "https://happimess.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://cdn.shopify.com/s/files/1/0491/2909/5325/files/happimess-logo-ai-file_1.svg?v=1697698531",
+    "width": 280,
+    "height": 280
+  },
+  "description": "Happimess designs modern storage, organization, and home furniture solutions including step trash cans, sensor cans, dual-compartment bins, storage benches, dish racks, and hampers.",
+  "email": "hello@happimess.com",
+  "telephone": "+19172614961",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "185 Madison Avenue",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10016",
+    "addressCountry": "US"
+  },
+  "foundingDate": "2020",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+19172614961",
+      "email": "hello@happimess.com",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": ["English", "Spanish"],
+      "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/happimessofficial/",
+    "https://www.instagram.com/happimess_official/",
+    "https://www.linkedin.com/company/happimesshome/",
+    "https://www.pinterest.com/[REPLACE-WITH-CANONICAL-PINTEREST-URL]/",
+    "https://www.youtube.com/channel/UC6lUDdoZeZrYnoY2kmZyf4g",
+    "https://www.tiktok.com/@happimess_official"
+  ],
+  "knowsAbout": [
+    "home organization",
+    "storage solutions",
+    "trash can design",
+    "kitchen organization",
+    "bathroom storage",
+    "laundry solutions",
+    "sustainable home products"
+  ]
+}
+</script>

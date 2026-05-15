@@ -1,0 +1,181 @@
+{
+  "url": "https://happimess.com",
+  "brand_name": "Happimess",
+  "date": "2026-05-07",
+  "geo_score": 42,
+  "scores": {
+    "ai_citability": 45,
+    "brand_authority": 18,
+    "content_eeat": 38,
+    "technical": 68,
+    "schema": 52,
+    "platform_optimization": 41
+  },
+  "platforms": {
+    "Google AI Overviews": 48,
+    "ChatGPT Web Search": 32,
+    "Perplexity AI": 44,
+    "Google Gemini": 36,
+    "Bing Copilot": 45
+  },
+  "executive_summary": "Happimess is a well-built Shopify e-commerce store selling home organization products — trash cans, storage furniture, kitchen accessories, and hampers. The site achieved an overall GEO Readiness Score of 42/100, placing it in the Poor tier for AI search visibility. The strongest area is Technical Foundations (68/100), where Shopify server-side rendering, a clean sitemap, and forward-thinking AI infrastructure (llms.txt, agents.md, UCP/MCP endpoints) distinguish the site from most Shopify stores. The critical gaps are Brand Authority (18/100) — the brand has no Wikipedia entity, no Wikidata entry, and a LinkedIn namespace collision with a Lithuanian nonprofit — and Content Quality (38/100), where anonymous authorship, no original data, and zero external citations prevent AI systems from treating the 26 blog posts as citable sources. Implementing the Quick Win action plan (7 actions, all under 1 hour each) is projected to raise the score to approximately 50/100 within the next crawl cycle. Full 90-day implementation is projected to reach 65-70/100.",
+  "findings": [
+    {
+      "severity": "critical",
+      "title": "Brand Has No Entity Recognition in AI Training Corpora",
+      "description": "Wikipedia search returns 0 results for Happimess. No Wikidata entry exists. LinkedIn search for 'Happimess' resolves to a Lithuanian nonprofit charity (happimess.lt), creating an active namespace collision. Without entity anchors, AI models cannot reliably identify Happimess as a US home-organization e-commerce brand."
+    },
+    {
+      "severity": "critical",
+      "title": "Author Bio Page Returns HTTP 404",
+      "description": "The Article schema on all 26 blog posts links author.url to https://happimess.com/pages/asodariya-sumi which returns a 404 Not Found error. AI crawlers and Google cannot verify author credentials, voiding the E-E-A-T signal across the entire blog."
+    },
+    {
+      "severity": "critical",
+      "title": "Organization Schema Has Wrong @type and 4 Validation Errors",
+      "description": "Global schema uses LocalBusiness (wrong for D2C e-commerce). Additionally: telephone has a leading space bug, servesCuisine (a restaurant-only property) is applied, and contactType uses a non-enum value. These errors appear on every page and block Knowledge Panel eligibility."
+    },
+    {
+      "severity": "critical",
+      "title": "llms.txt Omits All 26 Blog Posts",
+      "description": "The llms.txt and llms-full.txt files exist and the UCP/MCP infrastructure is excellent, but none of the 26 blog posts at /blogs/news/ are referenced. AI models reading llms.txt classify Happimess as a pure transactional storefront, not a knowledge resource."
+    },
+    {
+      "severity": "high",
+      "title": "No Product AggregateRating Schema",
+      "description": "Zero product star ratings are structured on any product page. Without AggregateRating schema wired to a reviews app, products are ineligible for star ratings in Google SERPs and Gemini Shopping surfaces."
+    },
+    {
+      "severity": "high",
+      "title": "FAQ Page Returns HTTP 404",
+      "description": "The /pages/faq page is linked in the footer of every page on the site but returns a 404 Not Found error. This is a direct trust failure — a broken promise to users and crawlers."
+    },
+    {
+      "severity": "high",
+      "title": "No Named Authors Across All Content",
+      "description": "All 26 blog posts use the collective anonymous byline 'From The Mess Experts' with zero individual credentialing. AI citation models require named, verifiable authors to assign expertise credit."
+    },
+    {
+      "severity": "high",
+      "title": "Organization/WebSite Schema is JS-Injected",
+      "description": "The global entity schema blocks are injected by T4S theme JavaScript. AI crawlers (GPTBot, ClaudeBot, PerplexityBot) that do not execute JavaScript will miss entity schema on every page."
+    },
+    {
+      "severity": "high",
+      "title": "Buying Guide is Critically Thin at 650 Words",
+      "description": "The flagship buying guide (/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can) contains only 650 words. Competing comprehensive buying guides run 1,500-3,000 words. It also contains off-topic wipes product H3 headings injected mid-article."
+    },
+    {
+      "severity": "high",
+      "title": "No External Citations in Any Blog Post",
+      "description": "All 26 blog posts contain zero links to external authoritative sources (EPA, NKBA, manufacturer specs). Perplexity and ChatGPT deprioritize unsourced assertions over pages with traceable citations."
+    },
+    {
+      "severity": "medium",
+      "title": "CLS Risk from Image Lazy-Load Pattern",
+      "description": "All product images use data:image/gif;base64 placeholder pattern. Browser allocates zero space for placeholders, causing layout shifts when actual images load. Affects every product listing, collection, and blog page."
+    },
+    {
+      "severity": "medium",
+      "title": "Hreflang Implementation Unconfirmed",
+      "description": "The site operates dual English (/) and Spanish (/es/) versions but whether hreflang tags are correctly implemented could not be confirmed. A misconfiguration would cause Google to suppress one language version entirely."
+    },
+    {
+      "severity": "medium",
+      "title": "No CollectionPage Schema on /collections/ Pages",
+      "description": "Collection pages (/collections/trash-can, etc.) have zero structured data. These are the landing pages AI systems would surface for 'best trash can' queries and are entirely invisible to structured data parsing."
+    },
+    {
+      "severity": "medium",
+      "title": "Dual-Can Guide Has Emojis in All 10 H2 Headings",
+      "description": "The most recent blog post (April 2026) has emoji characters in every H2 heading. Emoji in heading tags reduces AI passage extraction quality and undermines professional authority signals."
+    },
+    {
+      "severity": "medium",
+      "title": "No FTC Disclosure on Commercial Blog Posts",
+      "description": "Blog posts recommend specific Happimess products without disclosing the commercial relationship. This violates FTC guidelines and Google's spam policies."
+    }
+  ],
+  "quick_wins": [
+    {"action": "Create /pages/asodariya-sumi author page with bio and photo", "impact": "Fixes E-E-A-T signal on all 26 blog posts — 30 minutes"},
+    {"action": "Create or redirect /pages/faq", "impact": "Fixes broken footer link on every page — 15 minutes"},
+    {"action": "Fix global schema: LocalBusiness → Organization, fix telephone space, remove servesCuisine, fix contactType enum", "impact": "Fixes entity schema on every page — 30 minutes"},
+    {"action": "Upload improved llms.txt (included in audit package) to site root", "impact": "Exposes all 26 blog posts to AI discovery — 10 minutes"},
+    {"action": "Add explicit AI crawler Allow rules to robots.txt (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Amazonbot)", "impact": "Explicit AI crawler invitation — 15 minutes"},
+    {"action": "Create LinkedIn company page for happimess.com (separate from the Lithuanian nonprofit)", "impact": "Starts entity recognition chain for ChatGPT and Bing Copilot — 60 minutes"},
+    {"action": "Implement IndexNow on Shopify + submit sitemap in Bing Webmaster Tools", "impact": "Bing Copilot freshness — 45 minutes"}
+  ],
+  "medium_term": [
+    {"action": "Add FAQPage JSON-LD schema to 8+ blog posts that already have FAQ sections", "impact": "Google AIO FAQ rich results + Perplexity citation readiness"},
+    {"action": "Deploy Product schema template to product.liquid via Shopify snippet (included in audit)", "impact": "AggregateRating + star ratings across all product SERPs"},
+    {"action": "Deploy CollectionPage + ItemList schema to collection.liquid (included in audit)", "impact": "AI product discovery for 'best trash can' queries"},
+    {"action": "Move Organization/WebSite schema from JS-injection to server-rendered Liquid in theme.liquid", "impact": "AI crawlers can now see entity schema on every page"},
+    {"action": "Add speakable property to Article schema on blog posts", "impact": "AI assistant readiness signal — direct feed for voice/AI answers"},
+    {"action": "Rebuild buying guide from 650 to 2,000+ words with comparison table, methodology, and external citations", "impact": "AIO, ChatGPT, Perplexity citability for highest commercial-intent query"},
+    {"action": "Change homepage H1 from 'Happimess' to keyword-bearing text ('Trash Cans, Storage & Home Organization')", "impact": "Root domain topical signal for Google AIO"},
+    {"action": "Remove emojis from all H2 headings in dual-can guide and update to clean text", "impact": "AI passage extraction quality + professional authority"},
+    {"action": "Add FTC disclosure to all blog posts recommending Happimess products", "impact": "Compliance + Google spam policy"},
+    {"action": "Fix image CLS — add aspect-ratio CSS to image wrappers or width/height to img tags", "impact": "Core Web Vitals improvement across entire site"}
+  ],
+  "strategic": [
+    {"action": "Claim and complete Trustpilot business profile — collect 25+ reviews", "impact": "Brand authority across all AI platforms; first step toward Wikipedia notability"},
+    {"action": "Add source citations (NKBA standards, EPA guidelines, manufacturer specs) to standard-size and dual-can guides", "impact": "Perplexity citation readiness; ChatGPT factual trust"},
+    {"action": "Create YouTube channel with 5-10 product demo and organization-tip videos", "impact": "Google ecosystem signal; Gemini multimodal entity; cross-platform brand presence"},
+    {"action": "Commission reader survey on kitchen trash habits (100+ responses via newsletter); publish as original research", "impact": "First proprietary data on domain; AI citation anchor; backlink magnet"},
+    {"action": "Secure 2-3 editorial mentions in home/organization publications (Apartment Therapy, The Spruce)", "impact": "Press trail needed for Wikipedia notability; ChatGPT entity evidence"},
+    {"action": "Verify and fix hreflang implementation via Google Search Console International Targeting report", "impact": "Prevents bilingual content suppression; ensures Spanish version indexed correctly"},
+    {"action": "Rewrite opening paragraph of each blog post: answer H1 question in first 50 words before context-setting copy", "impact": "Google AI Overviews passage extraction across all 26 posts"},
+    {"action": "Create Wikipedia article for Happimess once press mentions establish notability", "impact": "Highest single-value brand authority action — entity recognition across all AI platforms"}
+  ],
+  "crawler_access": {
+    "GPTBot": {"platform": "ChatGPT / OpenAI", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "OAI-SearchBot": {"platform": "ChatGPT / OpenAI", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "ClaudeBot": {"platform": "Claude / Anthropic", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "PerplexityBot": {"platform": "Perplexity AI", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "Google-Extended": {"platform": "Google Gemini", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "Amazonbot": {"platform": "Amazon / Alexa", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "CCBot": {"platform": "Common Crawl", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "Bytespider": {"platform": "ByteDance / TikTok", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "Applebot-Extended": {"platform": "Apple AI", "status": "Permissive (inherits *)", "recommendation": "Add explicit Allow: / directive"},
+    "Nutch": {"platform": "Apache", "status": "BLOCKED (Disallow: /)", "recommendation": "Intentional block — no change needed"},
+    "AhrefBot": {"platform": "Ahrefs", "status": "Restricted + 10s delay", "recommendation": "No change needed"},
+    "MJ12bot": {"platform": "Majestic", "status": "10s crawl delay", "recommendation": "No change needed"}
+  },
+  "schema_findings": {
+    "presence_score": 62,
+    "quality_score": 44,
+    "rich_result_score": 51,
+    "schemas_found": ["WebPage", "WebSite", "SearchAction", "LocalBusiness", "Product", "BreadcrumbList", "FAQPage", "Article"],
+    "schemas_missing": ["Organization (wrong type used)", "AggregateRating on Product", "Person for author", "speakable", "CollectionPage", "ItemList"]
+  },
+  "content_findings": {
+    "eeat_score": 38,
+    "depth_score": 42,
+    "citability_score": 29,
+    "blog_posts": 26,
+    "top_citability_page": "Standard Kitchen Trash Can Size",
+    "top_citability_score": 60,
+    "best_passage_score": 79
+  },
+  "technical_findings": {
+    "ssr": true,
+    "https": true,
+    "mobile_optimized": true,
+    "sitemap_present": true,
+    "llmstxt_present": true,
+    "agents_md_present": true,
+    "ucp_present": true,
+    "hreflang_confirmed": false,
+    "cls_risk": "medium-high",
+    "schema_js_injected": true
+  },
+  "brand_findings": {
+    "wikipedia": false,
+    "wikidata": false,
+    "youtube_channel": false,
+    "linkedin_confirmed": false,
+    "linkedin_collision": "Lithuanian nonprofit at same name",
+    "trustpilot": "unverified",
+    "social_platforms": 6
+  }
+}

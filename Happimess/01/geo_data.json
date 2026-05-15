@@ -1,0 +1,152 @@
+{
+  "url": "https://happimess.com",
+  "brand_name": "Happimess",
+  "date": "2026-04-14",
+  "geo_score": 38,
+  "scores": {
+    "ai_citability": 37,
+    "brand_authority": 18,
+    "content_eeat": 37,
+    "technical": 67,
+    "schema": 42,
+    "platform_optimization": 37
+  },
+  "platforms": {
+    "Google AI Overviews": 44,
+    "ChatGPT Web Search": 31,
+    "Perplexity AI": 38,
+    "Google Gemini": 36,
+    "Bing Copilot": 35
+  },
+  "executive_summary": "Happimess is a well-merchandised Shopify e-commerce store with clean technical infrastructure but zero deliberate GEO infrastructure. The GEO Readiness Score is 38/100 (Poor). Primary barriers: missing llms.txt, missing sameAs entity links, brand name artifact ('Happimess Dev') in product schema, zero brand presence on Wikipedia/LinkedIn/Reddit/YouTube. Top 3 priorities: (1) Fix brand name (30 min), (2) Deploy llms.txt (1 hr), (3) Add sameAs links (30 min). Quick Wins alone could improve score by 15-20 points within 30 days.",
+  "findings": [
+    {
+      "severity": "critical",
+      "title": "Brand Name Artifact in Production",
+      "description": "'Happimess Dev' in Product schema instead of 'Happimess'"
+    },
+    {
+      "severity": "critical",
+      "title": "No llms.txt File",
+      "description": "Missing AI crawler guide (404)"
+    },
+    {
+      "severity": "critical",
+      "title": "Organization Schema Missing sameAs",
+      "description": "Zero social profile links"
+    },
+    {
+      "severity": "critical",
+      "title": "Author Identity Leak",
+      "description": "Admin usernames visible in blog schema"
+    },
+    {
+      "severity": "critical",
+      "title": "No Named Blog Authors",
+      "description": "24+ posts attributed to generic author"
+    },
+    {
+      "severity": "critical",
+      "title": "Blog Posts Have No Publication Dates",
+      "description": "No visible dates on blog content"
+    },
+    {
+      "severity": "critical",
+      "title": "Hreflang Not Implemented",
+      "description": "Bilingual store lacks hreflang tags"
+    },
+    {
+      "severity": "high",
+      "title": "No Product Reviews",
+      "description": "Missing aggregateRating schema"
+    },
+    {
+      "severity": "high",
+      "title": "No Bing Webmaster Tools",
+      "description": "Missing verification"
+    },
+    {
+      "severity": "high",
+      "title": "Policies Blocked",
+      "description": "robots.txt blocks /policies/"
+    },
+    {
+      "severity": "high",
+      "title": "No LinkedIn Company Page",
+      "description": "Entity disambiguation at risk"
+    },
+    {
+      "severity": "high",
+      "title": "About Us Too Thin",
+      "description": "Only 200 words of generic copy"
+    },
+    {
+      "severity": "medium",
+      "title": "Zero External Citations",
+      "description": "No outbound links on blog"
+    },
+    {
+      "severity": "medium",
+      "title": "FAQPage Schema Missing",
+      "description": "FAQ lacks JSON-LD markup"
+    }
+  ],
+  "quick_wins": [
+    "Fix 'Happimess Dev' \u2192 'Happimess' in Product schema",
+    "Create and deploy llms.txt file",
+    "Add sameAs array to Organization schema",
+    "Unblock /policies/ for AI crawlers",
+    "Fix description: null in WebPage schema",
+    "Verify in Bing Webmaster Tools",
+    "Fix admin usernames in Shopify blog"
+  ],
+  "medium_term": [
+    "Enable publication dates on all blog posts",
+    "Rebuild About Us page",
+    "Add FAQPage schema",
+    "Set up review app + aggregateRating",
+    "Create LinkedIn company page",
+    "Implement hreflang for EN/ES",
+    "Fix ItemList absolute URLs"
+  ],
+  "strategic": [
+    "Add external citations to all blog posts",
+    "Create buying guide articles",
+    "Add speakable property to Article schema",
+    "Create author bio pages",
+    "Set up Trustpilot + Google Business Profile",
+    "Build Reddit community strategy",
+    "Implement content cluster architecture",
+    "Pursue Wikipedia presence"
+  ],
+  "crawler_access": {
+    "Googlebot": {
+      "platform": "Google Search + AIO",
+      "status": "Allowed"
+    },
+    "GPTBot": {
+      "platform": "ChatGPT",
+      "status": "Allowed"
+    },
+    "Bingbot": {
+      "platform": "Bing Copilot",
+      "status": "Allowed"
+    },
+    "PerplexityBot": {
+      "platform": "Perplexity AI",
+      "status": "Allowed"
+    },
+    "Google-Extended": {
+      "platform": "Gemini",
+      "status": "Allowed"
+    },
+    "ClaudeBot": {
+      "platform": "Claude",
+      "status": "Allowed"
+    },
+    "Applebot-Extended": {
+      "platform": "Apple Intelligence",
+      "status": "Allowed"
+    }
+  }
+}

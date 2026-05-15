@@ -1,0 +1,92 @@
+{% comment %}
+  HAPPIMESS — Product Schema (JSON-LD)
+  Deploy: Add {% render 'schema-product' %} to product.liquid before </body>
+  Requires: A reviews app (Judge.me, Okendo, or Shopify Reviews) that populates
+            product.metafields.reviews.rating and product.metafields.reviews.rating_count
+{% endcomment %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "{{ shop.url }}/products/{{ product.handle }}#product",
+  "name": "{{ product.title | escape }}",
+  "url": "{{ shop.url }}/products/{{ product.handle }}",
+  "description": "{{ product.description | strip_html | truncatewords: 100 | escape }}",
+  "image": [
+    {% for image in product.images limit: 5 %}
+    "{{ image.src | img_url: 'master' }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ shop.name }}",
+    "@id": "https://happimess.com/#organization"
+  },
+  "sku": "{{ product.selected_or_first_available_variant.sku | default: product.id | escape }}",
+  {% if product.metafields.reviews.rating.value != blank %}
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ product.metafields.reviews.rating.value }},
+    "reviewCount": {{ product.metafields.reviews.rating_count.value | default: 0 }},
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  {% endif %}
+  "offers": [
+    {% for variant in product.variants %}
+    {
+      "@type": "Offer",
+      "name": "{{ variant.title | escape }}",
+      "sku": "{{ variant.sku | default: variant.id | escape }}",
+      "price": {{ variant.price | money_without_currency | remove: ',' }},
+      "priceCurrency": "{{ cart.currency.iso_code }}",
+      "availability": "{% if variant.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+      "url": "{{ shop.url }}/products/{{ product.handle }}?variant={{ variant.id }}",
+      "itemCondition": "https://schema.org/NewCondition",
+      "priceValidUntil": "{{ 'now' | date: '%Y' | plus: 1 }}-12-31",
+      "seller": {
+        "@type": "Organization",
+        "@id": "https://happimess.com/#organization"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 2,
+            "unitCode": "d"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 3,
+            "maxValue": 7,
+            "unitCode": "d"
+          }
+        },
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0.00",
+          "currency": "USD"
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/ReturnShippingFees",
+        "merchantReturnLink": "https://happimess.com/policies/refund-policy"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

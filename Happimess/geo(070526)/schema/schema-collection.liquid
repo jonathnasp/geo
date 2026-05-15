@@ -1,0 +1,70 @@
+{% comment %}
+  HAPPIMESS — CollectionPage + ItemList Schema (JSON-LD)
+  Deploy: Add {% render 'schema-collection', collection: collection %} to collection.liquid before </body>
+  This schema is entirely absent from the site — add to all collection pages.
+{% endcomment %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ shop.url }}/collections/{{ collection.handle }}#collectionpage",
+  "name": "{{ collection.title | escape }}",
+  "description": "{% if collection.description != blank %}{{ collection.description | strip_html | truncatewords: 60 | escape }}{% else %}Shop {{ collection.title }} at Happimess — modern home organization and storage solutions.{% endif %}",
+  "url": "{{ shop.url }}/collections/{{ collection.handle }}",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://happimess.com/#organization"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ shop.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ collection.title | escape }}",
+        "item": "{{ shop.url }}/collections/{{ collection.handle }}"
+      }
+    ]
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "{{ collection.title | escape }}",
+    "numberOfItems": {{ collection.products_count }},
+    "itemListElement": [
+      {% for product in collection.products limit: 20 %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ shop.url }}/products/{{ product.handle }}",
+        "name": "{{ product.title | escape }}",
+        "item": {
+          "@type": "Product",
+          "name": "{{ product.title | escape }}",
+          "url": "{{ shop.url }}/products/{{ product.handle }}",
+          "image": "{% if product.featured_image %}{{ product.featured_image.src | img_url: 'master' }}{% endif %}",
+          "description": "{{ product.description | strip_html | truncatewords: 30 | escape }}",
+          "brand": {
+            "@type": "Brand",
+            "name": "Happimess"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": {{ product.price | money_without_currency | remove: ',' }},
+            "priceCurrency": "{{ cart.currency.iso_code }}",
+            "availability": "{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+            "url": "{{ shop.url }}/products/{{ product.handle }}"
+          }
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+</script>

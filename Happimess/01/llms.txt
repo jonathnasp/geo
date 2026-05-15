@@ -1,0 +1,108 @@
+# Happimess
+
+> Happimess is a US-based e-commerce brand selling stylish home organization, storage furniture, and trash management products — designed around the belief that a clutter-free home leads to a happier life.
+
+## Products
+
+- [Trash Cans](https://happimess.com/collections/trash-can): Full range of kitchen and home trash cans including step-open, sensor/touchless, dual-compartment recycling, push-button, and slim models from 6 to 17+ gallons.
+- [Step-Open Trash Cans](https://happimess.com/collections/step-trash-cans): Foot-pedal step-open trash cans in stainless steel and matte finishes; includes bundled mini trash can sets.
+- [Sensor Trash Cans](https://happimess.com/collections/sensor-trash-cans): Touchless motion-sensor trash cans for kitchen and bathroom; 13.2-gallon slim oval models in chrome, black, white, and beige.
+- [Dual-Compartment Trash Cans](https://happimess.com/collections/dual-compartment-trash-cans): Side-by-side waste and recycling bins; 8–16 gallon double-bucket models with soft-close lids.
+- [Storage Furniture](https://happimess.com/collections/storage-furniture): Storage benches, trunks, ottomans, coffee tables with storage, and accent tables; handwoven hyacinth, wicker, and wood styles.
+- [Organization](https://happimess.com/collections/organization): Storage baskets, bins, shelving, and racks for home organization; includes rattan, hyacinth, and industrial styles.
+- [Storage Benches](https://happimess.com/collections/storage-bench): Wicker and hyacinth storage benches with lift-top or drawer configurations; 30"–47" sizes.
+- [Wicker Trunks](https://happimess.com/collections/wicker-trunk): Hand-woven rattan and wicker storage trunks in 30"–35" sizes including the Michael and Elijah models.
+- [Dish Racks](https://happimess.com/collections/dish-racks): Compact and adjustable dish drying racks with drain trays and wine glass holders.
+- [Shoe Racks](https://happimess.com/collections/shoe-racks): 2-tier and 3-tier iron shoe racks in industrial, minimalist, and curved styles; holds 6–9 pairs.
+- [Coat Racks](https://happimess.com/collections/coat-racks): 5-hook metal parlor and entryway coat racks in black/chrome and black/white finishes.
+- [Bins and Baskets](https://happimess.com/collections/bins-baskets): Handwoven rattan and hyacinth nesting baskets in sets; coastal, farmhouse, and bohemian styles.
+- [Shelves](https://happimess.com/collections/shelves): Wall-mounted metal and wood shelves including bar shelves, walnut floating shelves, and industrial bookcase styles.
+- [Carts](https://happimess.com/collections/carts): Rolling storage carts for kitchen, bathroom, and office use.
+- [Outdoor Storage Furniture](https://happimess.com/collections/outdoor-storage-furniture): Outdoor-rated storage boxes and furniture for decks, patios, and gardens.
+- [Trash Bags and Liners](https://happimess.com/collections/trash-bag): Custom-fit drawstring trash can liners in 5.3, 8.0, and 13.2-gallon sizes; scented (lemon, lavender) and unscented; compostable options available.
+- [Cleaning Wipes](https://happimess.com/collections/wipes): Multi-surface cleaning wipes sold as standalone and subscription products.
+- [Subscribe and Save](https://happimess.com/collections/subscribe-save): Subscription program for trash bags and consumables; 20% off monthly deliveries, 10% off quarterly; skip, reschedule, or cancel anytime.
+- [Build a Box](https://happimess.com/pages/build-a-box): Custom product bundle builder allowing customers to combine trash cans, liners, and accessories into a personalized set.
+- [Trash Bundles](https://happimess.com/collections/trash-bundle): Pre-configured trash can and liner bundle sets at package pricing.
+
+## Key Pages
+
+- [About Us](https://happimess.com/pages/about-us): Happimess brand mission and values — the belief that a clutter-free home leads to a happier life; quality commitment and product testing standards.
+- [FAQs](https://happimess.com/pages/faqs): Answers to common questions on order shipping timelines (1–2 business days), return policy (30-day, $10 fee, prepaid label for contiguous US), international shipping (contiguous US only), and order modifications.
+- [Refill Page — Subscribe and Save](https://happimess.com/pages/refill-page): Overview of the subscription refill program for trash can liners; pricing from $22.99–$32.99 per pack with automatic discounts versus one-time purchase prices.
+- [Financing](https://happimess.com/pages/financing): Information on buy-now-pay-later and financing options available at checkout, subject to credit approval.
+- [Return Policy](https://happimess.com/pages/return-policy): 30-day return window; prepaid label provided for 48 contiguous states; $10 return fee per item; original packaging required; freight and white glove items excluded.
+- [Shipping Policy](https://happimess.com/pages/shipping-policy): FedEx shipping with typical 3–5 day delivery; orders fulfilled within 1–2 business days Monday–Friday; ships to 48 contiguous US states only.
+- [Contact Us](https://happimess.com/pages/contact-us): Customer support via email hello@happimess.com and phone (917) 261-4961; hours Monday–Friday 9AM–5PM EST; live chat available daily 9AM–5PM.
+- [Ambassador Program](https://happimess.com/pages/ambassador-program): Happimess brand ambassador program for advocates and content creators.
+- [Wicker Collection Guide](https://happimess.com/pages/wicker): Landing page for Happimess wicker and hyacinth storage collection.
+- [Accessibility Statement](https://happimess.com/pages/accessibility-statement): WCAG compliance and accessibility commitment details.
+
+## Blog Content
+
+- [Standard Kitchen Trash Can Size: The Complete Guide](https://happimess.com/blogs/news/standard-kitchen-trash-can-size): Comprehensive guide to trash can sizing — small (4–6 gal), standard (7–13 gal), and large (14–20 gal) with measurement guidance and buying recommendations.
+- [The Guide to Choosing the Perfect Kitchen Trash Can](https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can): Covers size and capacity, materials (stainless steel vs. plastic), lid types (step, sensor, push), dual-bucket options, and aesthetic considerations.
+- [Organization Do's and Don'ts for 2025](https://happimess.com/blogs/news/organization-do-s-and-don-ts-for-2025-practical-tips-for-a-clutter-free-home): Practical tips for a clutter-free home — what storage approaches work long-term versus trendy solutions that overcomplicate spaces.
+- [Transform Your Living Room with the Perfect Storage Bench (2025 Buying Guide)](https://happimess.com/blogs/news/living-room-storage-bench): Types of storage benches, size selection, materials comparison, styling tips, and 2025 design trends; weight capacity typically 200–400 lbs.
+- [3 Kitchen Trends for 2025](https://happimess.com/blogs/news/kitchen-trends-for-2025): Covers cool metals/stainless accents, wooden fixtures, storybook aesthetic, sustainable materials, and smart kitchen integration trends.
+- [Tips for Organizing Your Kitchen: A Comprehensive Guide](https://happimess.com/blogs/news/tips-for-organizing-your-kitchen-a-comprehensive-guide): Decluttering, categorizing items by function, maximizing vertical and hidden storage, creating workstations, and maintaining organization routines.
+- [Trash Can Maintenance Tips for a Fresh and Odor-Free Bin](https://happimess.com/blogs/news/trashcan-maintenance-tips-and-tricks-for-a-fresh-and-odor-free-bin): Cleaning frequency, odor control methods, and bin maintenance best practices.
+- [How Trash Recycling Can Create a Better Environment](https://happimess.com/blogs/news/how-trash-recycling-can-create-a-better-environment-for-your-house): Home recycling practices and how dual-compartment trash cans support eco-friendly waste sorting.
+- [10 Ways to Style a Clothing Rack for a Chic and Organized Bedroom](https://happimess.com/blogs/news/10-ways-to-style-a-clothing-rack-for-a-chic-and-organized-bedroom): Styling and organization techniques for open clothing racks in bedroom settings.
+- [Stash and Hide: 9 Ways to Hide Your Trash Can](https://happimess.com/blogs/news/stash-and-hide-9-ways-to-hide-your-trash-can): Creative methods for concealing trash cans in kitchens and living spaces while maintaining accessibility.
+- [10 Eco-Friendly Kitchen Swaps to Make Today](https://happimess.com/blogs/news/10-eco-friendly-kitchen-swaps-to-make-today): Practical eco-friendly product substitutions for the kitchen including reusable liners and compostable bags.
+- [The Benefits of Recycling: How You Can Help the Environment and Save Money](https://happimess.com/blogs/news/the-benefits-of-recycling-how-you-can-help-the-environment-and-save-money): Overview of environmental and financial benefits of household recycling programs.
+- [Average Kitchen Trash Can Size](https://happimess.com/blogs/news/average-kitchen-trash-can-size): Sizing reference guide for standard, apartment, and family-sized kitchen trash cans.
+- [Economy Home Decor 2025](https://happimess.com/blogs/news/economy-home-decor-2025): Budget-conscious home decor and organization ideas for 2025.
+- [Gold Trash Cans: The New Trend](https://happimess.com/blogs/news/gold-trash-cans-the-new-trend): Overview of metallic and gold-finish trash can designs as a home decor trend.
+- [Storage Benches Are More Relevant Than You Think](https://happimess.com/blogs/news/storage-benches-are-more-relevant-than-you-think): Use cases and styling ideas for storage benches across entryways, bedrooms, and living rooms.
+- [Effortless Composting: How a Trash Can with an Attachable Compost Bin Can Make a Difference](https://happimess.com/blogs/news/effortless-composting-how-a-trash-can-with-an-attachable-compost-bin-can-make-a-difference): Introduction to compost-capable trash can setups and composting basics for home use.
+
+## Policies
+
+- [Privacy Policy](https://happimess.com/pages/privacy-policy): Data collection, use, and protection practices for happimess.com customers.
+- [Terms and Conditions](https://happimess.com/pages/terms-conditions): Website terms of use and purchase terms for happimess.com.
+- [Return Policy](https://happimess.com/pages/return-policy): 30-day returns with prepaid FedEx label for contiguous US; $10 per-item return fee; original packaging required.
+- [Shipping Policy](https://happimess.com/pages/shipping-policy): Ships via FedEx to 48 contiguous US states; 1–2 business day fulfillment; 3–5 day typical transit.
+
+## Key Facts
+
+- Brand name: Happimess
+- Website: https://happimess.com
+- Business type: Direct-to-consumer e-commerce (Shopify)
+- Product focus: Home organization, storage furniture, trash cans, and cleaning consumables
+- Key product lines: Trash cans (step-open, sensor, dual-compartment), storage benches, wicker trunks, baskets, shoe racks, coat racks, shelves, trash bag liners
+- Notable product names: Elmo (double-bucket), Ashley, Oscar, Slyd, Beni, Chuck, Robo (sensor), Michael (wicker trunk), Anada (storage trunk)
+- Subscription program: Subscribe and Save — 20% off monthly, 10% off quarterly deliveries of liners and consumables
+- Shipping: FedEx, 3–5 days, contiguous US only, 1–2 business day fulfillment
+- Returns: 30-day policy, $10 fee, prepaid label provided
+- Languages: English (primary), Spanish (/es/ subdirectory)
+- Contact: hello@happimess.com | (917) 261-4961 | Mon–Fri 9AM–5PM EST
+- Mission: "A clutter-free home leads to a happier life"
+
+## Contact
+
+- Website: https://happimess.com
+- Email: hello@happimess.com
+- Phone: (917) 261-4961
+- Support hours: Monday–Friday, 9AM–5PM EST; live chat daily 9AM–5PM
+- Facebook: https://www.facebook.com/happimessofficial/
+- Instagram: https://www.instagram.com/happimess_official/
+- TikTok: https://www.tiktok.com/@happimess_official
+- Pinterest: https://www.pinterest.com/happimessofficial/
+- YouTube: https://www.youtube.com/channel/UC6lUDdoZeZrYnoY2kmZyf4g
+
+## Optional
+
+- [All Products](https://happimess.com/collections/all-products): Full catalog browsing page for all Happimess products.
+- [Best-Selling Trash Cans](https://happimess.com/collections/best-selling-trash): Curated list of top-selling trash can models.
+- [Best-Selling Organization](https://happimess.com/collections/best-selling-organization): Top-selling organization and storage basket products.
+- [Trending Products](https://happimess.com/collections/trending-products): Current trending items across all categories.
+- [Spanish Storefront](https://happimess.com/es/): Full site available in Spanish; all product and collection pages mirrored under /es/ subdirectory.
+- [Blog — The Mess Experts](https://happimess.com/blogs/news): All blog articles on home organization, trash can guides, storage trends, and eco-friendly living.
+- [Indoor and Outdoor Trash Cans](https://happimess.com/collections/indoor-outdoor-trash-cans): Trash cans suitable for both indoor kitchen use and outdoor/garage placement.
+- [Push-Button Trash Cans](https://happimess.com/collections/push-button-trash-cans): Trash cans with push-button lid mechanisms.
+- [Waste Bins](https://happimess.com/collections/waste-bins): Smaller bathroom, bedroom, and office waste bins.
+- [Under-the-Bed Storage](https://happimess.com/collections/under-the-bed-storage): Rolling and lidded storage bins designed to fit under standard bed frames.
+- [Storage Bundles](https://happimess.com/collections/storage-bundles): Pre-packaged storage furniture bundle sets.
+- [Hampers](https://happimess.com/collections/hampers): Laundry hampers and storage hampers.

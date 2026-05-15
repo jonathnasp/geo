@@ -1,0 +1,91 @@
+# Happimess
+
+> Happimess designs modern storage, organization, and home furniture solutions. From trash cans and bins to storage benches and hampers, Happimess helps you keep your home stylishly clutter-free. Products span kitchen, bathroom, bedroom, and living room organization — designed for households that want function and aesthetics in one.
+
+Happimess is an online store at https://happimess.com, powered by Shopify. Founded 2020. Ships to all 50 US states. Available in English and Spanish.
+
+## Product Categories
+
+- [Trash Cans & Bins](https://happimess.com/collections/trash-can): Step-open, sensor, dual-compartment, and round trash cans in stainless steel, plastic, and mixed materials. Sizes from 4 to 30+ gallons.
+- [Storage & Organization](https://happimess.com/collections/storage): Bins, baskets, cubes, and organization accessories for kitchen, bathroom, and bedroom.
+- [Storage Furniture](https://happimess.com/collections/storage-furniture): Storage benches, ottomans, trunks, and shelving with built-in organization.
+- [Kitchen Accessories](https://happimess.com/collections/kitchen): Dish racks, paper towel holders, compost bins, and kitchen organization tools.
+- [Laundry & Hampers](https://happimess.com/collections/hamper): Wicker, canvas, and plastic laundry hampers in single and double-compartment styles.
+- [Trash Bags & Liners](https://happimess.com/collections/trash-bags): Scented and unscented trash bag liners sized to fit Happimess cans.
+- [All Products](https://happimess.com/collections/all): Complete product catalog.
+
+## Blog & Guides
+
+Happimess publishes buying guides, how-to content, and home organization advice at /blogs/news/.
+
+### Trash Can Guides (Highest Citability)
+
+- [Standard Kitchen Trash Can Size Guide](https://happimess.com/blogs/news/standard-kitchen-trash-can-size): Complete size reference table mapping gallon capacity (4–6 gal through 21+ gal) to height ranges and household use cases. Includes selection factors, measurement guide, and FAQ.
+- [Average Kitchen Trash Can Size](https://happimess.com/blogs/news/average-kitchen-trash-can-size): Data on typical trash can dimensions for standard US kitchens by household size.
+- [Best Dual Trash Can for Kitchen (2026 Guide)](https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works): Buying guide covering compartment sizing, pedal durability, feature comparison, and product recommendations for waste-sorting bins. Updated April 2026.
+- [Guide to Choosing the Perfect Kitchen Trash Can](https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can): Decision framework covering size, material, lid mechanism (step-open vs sensor vs push), and design integration.
+- [Most Creative Trash Cans & Best Practices](https://happimess.com/blogs/news/most-creative-trash-cans-and-best-practices-in-2020): Design-forward trash can options and placement best practices.
+- [Gold Trash Cans: The New Trend](https://happimess.com/blogs/news/gold-trash-cans-the-new-trend): Style guide for decorative and finish-forward trash cans in modern kitchens.
+- [Trash Can Decor: Creative Ways to Incorporate Your Bin](https://happimess.com/blogs/news/trash-can-decor-creative-ways-to-incorporate-your-bin-into-your-home-design): Interior design approaches for integrating trash cans into home aesthetics.
+- [9 Ways to Hide Your Trash Can](https://happimess.com/blogs/news/stash-and-hide-9-ways-to-hide-your-trash-can): Practical concealment and integration strategies for kitchen and living room bins.
+- [Benefits of the Double Bucket Macro Trash Solution](https://happimess.com/blogs/news/benefits-of-happimess-double-bucket-macro-trash-solution): Product-specific guide to dual-compartment waste sorting systems.
+- [Handy Trash Bag Hacks](https://happimess.com/blogs/news/handy-trash-bag-hacks-you-might-not-know): Tips for extending bag life, eliminating odors, and maximizing liner performance.
+- [Why Choosing the Right Trash Bag Actually Matters](https://happimess.com/blogs/news/why-choosing-the-right-trash-bag-actually-matters): Material, size, and scent guide for matching liners to can type.
+- [Trash Can Maintenance Tips for an Odor-Free Bin](https://happimess.com/blogs/news/trashcan-maintenance-tips-and-tricks-for-a-fresh-and-odor-free-bin): Cleaning schedules, deodorizing methods, and long-term maintenance guide.
+
+### Kitchen Organization
+
+- [Tips for Organizing Your Kitchen: A Comprehensive Guide](https://happimess.com/blogs/news/tips-for-organizing-your-kitchen-a-comprehensive-guide): Step-by-step kitchen organization covering decluttering, zone creation, vertical storage, and maintenance routines.
+- [Kitchen Trends for 2025](https://happimess.com/blogs/news/kitchen-trends-for-2025): Annual roundup of kitchen design and organization trends.
+- [10 Eco-Friendly Kitchen Swaps to Make Today](https://happimess.com/blogs/news/10-eco-friendly-kitchen-swaps-to-make-today): Sustainable product alternatives and disposal practices for the kitchen.
+- [How to Clean and Maintain Your Dish Rack](https://happimess.com/blogs/news/how-to-clean-and-maintain-your-dish-rack-for-long-lasting-use): Cleaning and maintenance guide for dish drying racks.
+
+### Storage & Furniture Guides
+
+- [Living Room Storage Bench Guide](https://happimess.com/blogs/news/living-room-storage-bench): Buyer's guide for storage ottomans and benches — styles, weight capacity, and placement.
+- [Storage Benches Are More Relevant Than You Think](https://happimess.com/blogs/news/storage-benches-are-more-relevant-than-you-think): Use cases and benefits of multi-function storage bench furniture.
+- [From Garment Racks to Wicker Trunks: Key Benefits](https://happimess.com/blogs/news/from-garment-racks-to-wicker-trunks-what-are-the-key-benefits): Overview of storage furniture categories and their household applications.
+- [What Makes Michael Wicker Trunk Storage Special](https://happimess.com/blogs/news/what-makes-michael-wicker-trunk-storage-so-special): Deep-dive on wicker trunk construction, storage capacity, and style versatility.
+- [10 Ways to Style a Clothing Rack for an Organized Bedroom](https://happimess.com/blogs/news/10-ways-to-style-a-clothing-rack-for-a-chic-and-organized-bedroom): Bedroom organization and display approaches using open clothing racks.
+
+### Sustainability & Home
+
+- [How Trash Recycling Can Create a Better Environment](https://happimess.com/blogs/news/how-trash-recycling-can-create-a-better-environment-for-your-house): Household recycling practices, bin setup, and waste-sorting guidance.
+- [The Benefits of Recycling: Help the Environment and Save Money](https://happimess.com/blogs/news/the-benefits-of-recycling-how-you-can-help-the-environment-and-save-money): Environmental and financial case for household recycling programs.
+- [Effortless Composting with an Attachable Compost Bin](https://happimess.com/blogs/news/effortless-composting-how-a-trash-can-with-an-attachable-compost-bin-can-make-a-difference): Guide to integrating compost collection into kitchen waste sorting.
+- [Organization Do's and Don'ts for 2025](https://happimess.com/blogs/news/organization-do-s-and-don-ts-for-2025-practical-tips-for-a-clutter-free-home): Practical clutter-reduction principles with common organizational mistakes to avoid.
+- [Economy Home Decor 2025](https://happimess.com/blogs/news/economy-home-decor-2025): Budget-conscious home organization and decor strategies for 2025.
+
+## Key Pages
+
+- [About Happimess](https://happimess.com/pages/about-us): Brand story, mission, and product philosophy.
+- [Contact Us](https://happimess.com/pages/contact): Contact form, email (hello@happimess.com), phone ((917) 261-4961), and business hours (Mon–Fri 9AM–5PM EST).
+- [Return Policy](https://happimess.com/policies/refund-policy): 30-day return policy details and conditions.
+- [Privacy Policy](https://happimess.com/policies/privacy-policy): Data collection and privacy practices.
+- [Shipping Policy](https://happimess.com/policies/shipping-policy): Delivery timeframes and shipping options to all 50 US states.
+
+## Store Information
+
+- Currency: USD
+- Contact: hello@happimess.com
+- Phone: (917) 261-4961
+- Hours: Monday–Friday, 9AM–5PM EST
+- Languages: English, Spanish (https://happimess.com/es/)
+- Search: https://happimess.com/search?q={query}
+- Sitemap: https://happimess.com/sitemap.xml
+
+## For Agents & Developers
+
+This store supports the Universal Commerce Protocol (UCP) for programmatic commerce and AI-assisted purchasing.
+
+- [Agent Instructions](https://happimess.com/agents.md): Full UCP agent flow documentation, supported versions, checkout safety guardrails, and interaction patterns.
+- [UCP Discovery](https://happimess.com/.well-known/ucp): Merchant profile JSON with supported UCP versions (2026-04-08, 2026-01-23), payment handlers (Google Pay, Shopify Card), and service endpoints.
+- [MCP Endpoint](https://happimess.com/api/ucp/mcp): Model Context Protocol endpoint for agent-driven product discovery and purchasing.
+- [Extended AI Context](https://happimess.com/llms-full.txt): Full product catalog context and expanded store information for AI consumption.
+- [Agentic Sitemap](https://happimess.com/sitemap_agentic_discovery.xml): Sitemap indexing all AI-readable files (llms.txt, llms-full.txt, agents.md).
+
+**Agent Safety Note:** Per agents.md, agents must not complete payment without explicit buyer confirmation. All purchases require human approval at checkout.
+
+## Platform
+
+This store is built on Shopify (https://www.shopify.com).

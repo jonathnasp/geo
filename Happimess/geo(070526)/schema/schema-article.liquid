@@ -1,0 +1,82 @@
+{% comment %}
+  HAPPIMESS — Article Schema (JSON-LD)
+  Deploy: Add {% render 'schema-article', article: article, blog: blog %} to article.liquid before </body>
+  IMPORTANT: Replace CSS selectors in "speakable" with actual class names from your theme.
+             Inspect a live blog post to confirm correct selectors before deploying.
+  IMPORTANT: Create /pages/[author-handle] BEFORE deploying — author.url must resolve to a live page.
+{% endcomment %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ shop.url }}/blogs/{{ blog.handle }}/{{ article.handle }}#article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ shop.url }}/blogs/{{ blog.handle }}/{{ article.handle }}"
+  },
+  "headline": "{{ article.title | escape }}",
+  "description": "{{ article.excerpt_or_content | strip_html | truncatewords: 40 | escape }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{% if article.image %}{{ article.image.src | img_url: 'master' }}{% else %}https://cdn.shopify.com/s/files/1/0491/2909/5325/files/happimess-logo-ai-file_1.svg?v=1697698531{% endif %}"
+  },
+  "datePublished": "{{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%z' }}",
+  "dateModified": "{{ article.updated_at | date: '%Y-%m-%dT%H:%M:%S%z' }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ article.author | default: 'Happimess Editorial Team' | escape }}",
+    "url": "{{ shop.url }}/pages/{{ article.author | handle | default: 'our-team' }}",
+    "jobTitle": "Home Organization Expert",
+    "worksFor": {
+      "@type": "Organization",
+      "@id": "https://happimess.com/#organization"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://happimess.com/#organization",
+    "name": "Happimess",
+    "url": "https://happimess.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.shopify.com/s/files/1/0491/2909/5325/files/happimess-logo-ai-file_1.svg?v=1697698531",
+      "width": 280,
+      "height": 280
+    }
+  },
+  "inLanguage": "en-US",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "h2",
+      ".article__content > p:first-of-type",
+      ".article-template__hero-description"
+    ]
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ shop.url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ blog.title | escape }}",
+        "item": "{{ shop.url }}/blogs/{{ blog.handle }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ article.title | escape }}",
+        "item": "{{ shop.url }}/blogs/{{ blog.handle }}/{{ article.handle }}"
+      }
+    ]
+  }
+}
+</script>

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "PRO-001",
+    "company": "Happimess",
+    "domain": "happimess.com",
+    "contact_email": "hello@happimess.com",
+    "contact_name": "Jonathan Y.",
+    "industry": "Home Organization E-Commerce",
+    "country": "United States",
+    "status": "qualified",
+    "geo_score": 38,
+    "audit_date": "2026-04-15",
+    "audit_files": {
+      "main": "~/.geo-prospects/audits/happimess.com-GEO-AUDIT-2026-04-15.md",
+      "citability": "~/.geo-prospects/audits/happimess.com-CITABILITY-2026-04-15.md",
+      "technical": "~/.geo-prospects/audits/happimess.com-TECHNICAL-2026-04-15.md"
+    },
+    "proposal_file": "~/.geo-prospects/proposals/happimess.com-proposal.md",
+    "monthly_value": 0,
+    "contract_start": null,
+    "contract_months": 0,
+    "notes": [
+      {
+        "date": "2026-04-15",
+        "text": "Initial GEO audit complete. Score: 38/100 (Poor tier). Shopify e-commerce. Strong candidate for GEO optimization. Quick Wins identified: fix brand name artifact, deploy llms.txt, add sameAs links, unblock /policies/. Estimated 4-6 hours to improve score to 67/100."
+      },
+      {
+        "date": "2026-04-15",
+        "text": "Audits completed: GEO-AUDIT-REPORT (comprehensive), GEO-CITABILITY-SCORE (66/100), GEO-TECHNICAL-AUDIT (71/100), GEO-CLIENT-REPORT (business-ready), GEO-REPORT-PDF (professional presentation)"
+      },
+      {
+        "date": "2026-04-15",
+        "text": "Key issues identified: (1) 'Happimess Dev' artifact in product schema, (2) No llms.txt file, (3) Missing sameAs links, (4) /policies/ blocked from AI crawlers, (5) No hreflang for EN/ES store, (6) Missing security headers"
+      }
+    ],
+    "created_at": "2026-04-15",
+    "updated_at": "2026-04-15",
+    "deal_potential": {
+      "quick_wins": "6 hours \u2192 +29 points (38\u219267)",
+      "medium_term": "14 hours \u2192 +32 points (67\u219280)",
+      "strategic": "Ongoing \u2192 +15-30 points (80\u219295+)",
+      "estimated_monthly_value": 3000
+    }
+  },
+  {
+    "id": "PRO-002",
+    "company": "Happimess",
+    "domain": "happimess.com",
+    "contact_email": "hello@happimess.com",
+    "contact_name": "Jonathan Y.",
+    "industry": "Home Organization E-Commerce",
+    "country": "United States",
+    "status": "qualified",
+    "geo_score": 38,
+    "audit_date": "2026-04-15",
+    "audit_files": {
+      "main": "~/.geo-prospects/audits/happimess.com-GEO-AUDIT-2026-04-15.md",
+      "citability": "~/.geo-prospects/audits/happimess.com-CITABILITY-2026-04-15.md",
+      "technical": "~/.geo-prospects/audits/happimess.com-TECHNICAL-2026-04-15.md"
+    },
+    "proposal_file": "~/.geo-prospects/proposals/happimess.com-proposal.md",
+    "monthly_value": 0,
+    "contract_start": null,
+    "contract_months": 0,
+    "notes": [
+      {
+        "date": "2026-04-15",
+        "text": "Initial GEO audit complete. Score: 38/100 (Poor tier). Shopify e-commerce. Strong candidate for GEO optimization. Quick Wins identified: fix brand name artifact, deploy llms.txt, add sameAs links, unblock /policies/. Estimated 4-6 hours to improve score to 67/100."
+      },
+      {
+        "date": "2026-04-15",
+        "text": "Audits completed: GEO-AUDIT-REPORT (comprehensive), GEO-CITABILITY-SCORE (66/100), GEO-TECHNICAL-AUDIT (71/100), GEO-CLIENT-REPORT (business-ready), GEO-REPORT-PDF (professional presentation)"
+      }
+    ],
+    "created_at": "2026-04-15",
+    "updated_at": "2026-04-15",
+    "deal_potential": {
+      "quick_wins": "6 hours to improve from 38 to 67 (29 points)",
+      "medium_term": "14 hours to improve from 67 to 80 (13 points)",
+      "strategic": "Ongoing improvements to reach 85-95",
+      "estimated_monthly_value": 3000
+    }
+  }
+]

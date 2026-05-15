@@ -1,0 +1,38 @@
+<!--
+  HAPPIMESS — Author Person Schema
+  Deploy: Add this to the /pages/asodariya-sumi page template in Shopify
+  The current Article schema links author.url to this page — it currently returns 404.
+  Creating this page AND adding this schema resolves the critical E-E-A-T failure.
+
+  REPLACE all [REPLACE: ...] placeholders with real values before deploying.
+  At minimum: add a real LinkedIn URL and headshot photo.
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://happimess.com/pages/asodariya-sumi#person",
+  "name": "Asodariya Sumi",
+  "url": "https://happimess.com/pages/asodariya-sumi",
+  "image": {
+    "@type": "ImageObject",
+    "url": "[REPLACE: https://cdn.shopify.com/s/files/... — upload author headshot to Shopify Files]"
+  },
+  "jobTitle": "Home Organization Expert",
+  "description": "[REPLACE: 2–3 sentence bio — e.g. 'Asodariya Sumi is a home organization specialist at Happimess with expertise in kitchen storage, trash management solutions, and sustainable home design. Her guides help thousands of households find the right storage products for their space.']",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://happimess.com/#organization"
+  },
+  "knowsAbout": [
+    "home organization",
+    "kitchen storage",
+    "trash can selection",
+    "sustainable home products",
+    "storage furniture"
+  ],
+  "sameAs": [
+    "[REPLACE: https://www.linkedin.com/in/asodariya-sumi — add LinkedIn profile URL]"
+  ]
+}
+</script>
