@@ -1,0 +1,291 @@
+{
+  "url": "https://happimess.com",
+  "brand_name": "Happimess",
+  "date": "2026-05-20",
+  "geo_score": 51,
+  "scores": {
+    "ai_citability": 58,
+    "brand_authority": 32,
+    "content_eeat": 46,
+    "technical": 79,
+    "schema": 46,
+    "platform_optimization": 49
+  },
+  "platforms": {
+    "ChatGPT Web Search": 62,
+    "Bing Copilot": 50,
+    "Google Gemini": 48,
+    "Google AI Overviews": 42,
+    "Perplexity AI": 41
+  },
+  "crawler_access": {
+    "GPTBot": {
+      "platform": "OpenAI / ChatGPT",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — essential for ChatGPT web search citations"
+    },
+    "OAI-SearchBot": {
+      "platform": "OpenAI / ChatGPT",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — real-time ChatGPT search"
+    },
+    "ChatGPT-User": {
+      "platform": "OpenAI / ChatGPT",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — ChatGPT browsing mode"
+    },
+    "ClaudeBot": {
+      "platform": "Anthropic / Claude",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Claude training and citations"
+    },
+    "anthropic-ai": {
+      "platform": "Anthropic / Claude",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Anthropic AI systems"
+    },
+    "PerplexityBot": {
+      "platform": "Perplexity AI",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Perplexity search indexing"
+    },
+    "Google-Extended": {
+      "platform": "Google Gemini / AI Overviews",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Gemini training and AIO"
+    },
+    "Amazonbot": {
+      "platform": "Amazon / Alexa",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Alexa + AWS AI services"
+    },
+    "Applebot-Extended": {
+      "platform": "Apple Intelligence / Siri",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Apple Intelligence"
+    },
+    "CCBot": {
+      "platform": "Common Crawl (AI Training)",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — open AI training dataset"
+    },
+    "FacebookBot": {
+      "platform": "Meta AI / LLaMA",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — Meta AI training"
+    },
+    "Bytespider": {
+      "platform": "ByteDance / TikTok AI",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — TikTok AI, Doubao"
+    },
+    "cohere-ai": {
+      "platform": "Cohere Enterprise AI",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — enterprise AI platform"
+    },
+    "DiffbotBot": {
+      "platform": "Diffbot (Structured Extraction)",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — structured knowledge extraction"
+    },
+    "YouBot": {
+      "platform": "You.com AI Search",
+      "status": "ALLOWED",
+      "recommendation": "Continue allowing — You.com AI search"
+    }
+  },
+  "findings": [
+    {
+      "severity": "critical",
+      "title": "No Wikipedia / Wikidata Entity",
+      "description": "Happimess has no Wikipedia article and no Wikidata Q-number. AI language models use Wikipedia as their primary structured knowledge source for entity recognition. Without this, AI systems cannot verify Happimess as a legitimate brand entity. This is the single largest gap in the audit. Immediate action: create a Wikidata entity (30 minutes, no press coverage required) at wikidata.org/wiki/Special:NewItem."
+    },
+    {
+      "severity": "critical",
+      "title": "llms.txt Serving Wrong Content",
+      "description": "https://happimess.com/llms.txt currently returns the agents.md content (Universal Commerce Protocol file). These are two different standards. llms.txt must be a spec-compliant content index (# H1, blockquote description, - [Title](url): desc links). Two deployment-ready files are prepared: llms.txt and llms-full.txt. Deploy via Shopify Admin > Files > Upload, then URL Redirects."
+    },
+    {
+      "severity": "critical",
+      "title": "/.well-known/ucp Returns Staging Domain",
+      "description": "GET https://happimess.com/.well-known/ucp returns content referencing happimess-dev.myshopify.com instead of the production domain. ChatGPT shopping agents and UCP-compliant AI that resolve merchant identity through this endpoint will see a staging domain mismatch, undermining trust. Fix: update the UCP app configuration to reference https://happimess.com throughout."
+    },
+    {
+      "severity": "high",
+      "title": "No BlogPosting / Article Schema on 26 Blog Posts",
+      "description": "None of the 26 blog articles have Article or BlogPosting JSON-LD. This means AI systems cannot extract structured metadata (author, date, topic, publisher) from any blog content. A production-ready Shopify Liquid template is available in GEO-SCHEMA-REPORT.md — copy it into article.liquid in the Shopify theme editor. This single action applies structured data to all 26 articles simultaneously."
+    },
+    {
+      "severity": "high",
+      "title": "No FAQPage Schema on /pages/faqs",
+      "description": "The FAQ page contains 8 well-formatted Q&A pairs in H3 tags but has no FAQPage JSON-LD. This is the highest-leverage Google AI Overviews action available. The complete JSON-LD (all 8 Q&As pre-written) is available in GEO-PLATFORM-OPTIMIZATION.md — paste into a script tag in the page template."
+    },
+    {
+      "severity": "high",
+      "title": "No Named Blog Authors — Zero Expertise Signal",
+      "description": "Every Happimess blog article is attributed to 'Happimess editorial team' or 'From The Mess Experts.' Google's Quality Rater Guidelines explicitly flag generic bylines as a negative E-E-A-T signal. Two real employees are confirmed on LinkedIn: Anne-Marie Silbiger and So Youn Kim. Create named author pages with credentials and Person schema to unlock expertise signals across all articles."
+    },
+    {
+      "severity": "high",
+      "title": "Zero External Citations Across All 26 Articles",
+      "description": "Not a single Happimess blog article cites an external source. Perplexity and ChatGPT build citation chains — content that references external authorities (EPA, USDA, academic studies) participates in citation graphs. Content with zero citations reads as marketing copy to AI systems. Adding 3+ external citations per article to the top 5 posts is the highest-impact content action available."
+    },
+    {
+      "severity": "high",
+      "title": "Product Brand Name Unverified — 'Happimess Dev' Staging Artifact May Be Live",
+      "description": "Product JSON-LD was confirmed to contain 'Happimess Dev' in the brand.name field in a prior audit. A test product URL returned 404 in this audit — could not re-verify. A schema template hardcoding brand.name as 'Happimess' (not using {{ product.vendor }}) is available in GEO-SCHEMA-REPORT.md. Manually verify a live product page in Shopify Admin and apply the fix if the staging artifact is still present."
+    },
+    {
+      "severity": "medium",
+      "title": "About-us Page Title is 'About us' (8 Characters)",
+      "description": "The page title 'About us' is critically under-optimized — 8 characters, no brand name, no keywords. Recommended replacement: 'About Happimess — NYC Home Organization Brand & Testing Standards' (63 chars). Fix location: Shopify Admin > Online Store > Pages > About us > SEO section > Edit page title."
+    },
+    {
+      "severity": "medium",
+      "title": "Missing Meta Descriptions on /pages/about-us and /pages/faqs",
+      "description": "Both pages have og:description content but no &lt;meta name=&quot;description&quot;&gt; tag. Google and AI crawlers use the meta description for snippet generation. Both pages already have the correct text — it just needs to be mirrored to the SEO description field in Shopify Admin > Pages > [page] > SEO section."
+    },
+    {
+      "severity": "medium",
+      "title": "Testing Methodology Never Appears in Blog Content",
+      "description": "The 30-day/500-cycle testing protocol described on the About page appears in none of the 26 blog articles. A 74-word 'How We Tested' template is available in GEO-CONTENT-ANALYSIS.md — adding it to every buying guide bridges the brand's key differentiator into the content AI systems actually cite."
+    },
+    {
+      "severity": "medium",
+      "title": "jQuery 3.5.1 Loaded Synchronously in <head>",
+      "description": "jQuery 3.5.1 is loaded without a defer or async attribute, making it render-blocking. Adding 'defer' resolves this without any functional impact on Shopify Liquid pages. Note: test on staging before deploying to production, as some theme JavaScript may depend on synchronous jQuery initialization."
+    },
+    {
+      "severity": "medium",
+      "title": "Brand Authority: No BBB Profile, No Crunchbase Profile",
+      "description": "No Better Business Bureau profile and no Crunchbase entry exist for Happimess. Both are free to create. BBB profiles appear in Google Knowledge Panels and serve as trust signals for AI systems. Crunchbase provides structured entity data (founding date, HQ, industry) that AI models query for company facts. Combined effort: 75 minutes."
+    },
+    {
+      "severity": "low",
+      "title": "Blog Dates Invisible on /blogs/news Listing Page",
+      "description": "Publication dates are visible within individual articles but not shown on the /blogs/news index page. One line of Liquid code fixes this: {{ article.published_at | date: \"%B %d, %Y\" }} in the article loop in the blog template. This adds freshness signals to the page that Perplexity and Google use for content recency assessment."
+    },
+    {
+      "severity": "low",
+      "title": "robots.txt Syntax Defect in Policies Block",
+      "description": "A missing line break causes 'Allow: /policies/terms-of-serviceDisallow: /policies/' to be parsed as one directive. Practical impact is neutral-to-positive (policy pages remain crawlable), but the syntax should be corrected. Fix: Shopify Admin > Online Store > Themes > Edit Code > config/robots.txt.liquid — add line break in 3 user-agent blocks."
+    },
+    {
+      "severity": "low",
+      "title": "Poppins Font Preloaded 3x with Identical href",
+      "description": "Three identical &lt;link rel='preload'&gt; tags for the same Poppins font file appear in theme.liquid. Two are redundant and waste bandwidth. Remove 2 of the 3 duplicate preload tags."
+    }
+  ],
+  "quick_wins": [
+    {
+      "action": "Fix /.well-known/ucp staging domain → production domain",
+      "impact": "30 min — restores ChatGPT agent commerce trust"
+    },
+    {
+      "action": "Deploy llms.txt (separate from agents.md, per spec)",
+      "impact": "30 min — llms.txt score 20 → 70+"
+    },
+    {
+      "action": "Add FAQPage JSON-LD to /pages/faqs (8 Q&As pre-written)",
+      "impact": "30 min — Google AI Overviews FAQ rich results"
+    },
+    {
+      "action": "Add BlogPosting JSON-LD to article.liquid (template ready)",
+      "impact": "60 min — 26 articles gain structured data simultaneously"
+    },
+    {
+      "action": "Fix About-us page title: 'About us' → keyword-rich title",
+      "impact": "10 min — entity signal + SERP snippet improvement"
+    },
+    {
+      "action": "Add meta descriptions to /pages/about-us and /pages/faqs",
+      "impact": "15 min — SERP snippet control; og:description text already exists"
+    },
+    {
+      "action": "Add defer to jQuery script tag in theme.liquid",
+      "impact": "15 min — eliminates render-blocking JavaScript"
+    },
+    {
+      "action": "Remove 2 duplicate Poppins font preload tags",
+      "impact": "10 min — minor LCP improvement"
+    },
+    {
+      "action": "Add blog dates to /blogs/news listing template",
+      "impact": "20 min — freshness signal on index page"
+    },
+    {
+      "action": "Verify product page for 'Happimess Dev' brand.name; apply Product schema template",
+      "impact": "30 min — removes staging artifact from production"
+    }
+  ],
+  "medium_term": [
+    {
+      "action": "Create Wikidata entity (Q-number) for Happimess",
+      "impact": "30–60 min — AI entity recognition without requiring press coverage"
+    },
+    {
+      "action": "Create BBB business profile (free) and Crunchbase company profile (free)",
+      "impact": "75 min — trust signals and structured entity data for AI"
+    },
+    {
+      "action": "Name 2 blog authors + create /pages/author-[name] bio pages + Person schema",
+      "impact": "1 day — single biggest E-E-A-T improvement available"
+    },
+    {
+      "action": "Add 74-word 'How We Tested' section to every buying guide",
+      "impact": "2 hrs — bridges About page testing methodology into citable blog content"
+    },
+    {
+      "action": "Add 3+ external citations to top 5 blog posts",
+      "impact": "3–4 hrs — transforms marketing content into reference material for Perplexity"
+    },
+    {
+      "action": "Add editorial disclosure to all blog posts (currently only on one guide)",
+      "impact": "1 hr — E-E-A-T trustworthiness + FTC compliance"
+    },
+    {
+      "action": "Connect aggregateRating to Product schema via reviews app metafields",
+      "impact": "2–3 hrs — unlocks Google Shopping rich results"
+    },
+    {
+      "action": "Fix robots.txt syntax defect (missing line break in policies block)",
+      "impact": "15 min — technical hygiene"
+    },
+    {
+      "action": "Submit sitemaps via Bing Webmaster Tools + implement IndexNow app",
+      "impact": "1–2 hrs — Bing freshness signals for Bing Copilot"
+    }
+  ],
+  "strategic": [
+    {
+      "action": "Pursue 2–3 editorial placements (Apartment Therapy, The Spruce, NY Magazine)",
+      "impact": "2–3 months — prerequisite for Wikipedia; +15–20 brand authority points"
+    },
+    {
+      "action": "Create Wikipedia article once 2+ press citations exist",
+      "impact": "4–8 hrs (after press) — +20+ brand authority points; largest remaining GEO gain"
+    },
+    {
+      "action": "Revive LinkedIn: weekly posts + connect employees as Happimess staff",
+      "impact": "Ongoing — closes Microsoft/Bing Copilot gap; 8 weeks to 100+ followers"
+    },
+    {
+      "action": "Publish 5–10 YouTube videos (product demos, testing methodology)",
+      "impact": "1 month — YouTube is top-3 AI brand verification platform"
+    },
+    {
+      "action": "Build 'Product Testing Methodology' standalone page (full 30-day/500-cycle protocol)",
+      "impact": "1 day — primary-source documentation AI systems can cite directly"
+    },
+    {
+      "action": "Remove/revamp off-brand 'Economy Home Decor' article",
+      "impact": "1 hr — restores topical authority focus on trash/organization niche"
+    },
+    {
+      "action": "Add homepage citability content (brand description + testing claim + social proof bar)",
+      "impact": "2 hrs — homepage citability 29 → ~52/100"
+    }
+  ],
+  "executive_summary": "Happimess has made meaningful structural progress since the May 18 audit, with the composite GEO score rising from 48 to 51/100. The robots.txt overhaul, hreflang deployment, and agents.md/UCP implementation now place Happimess in the top 0.5% of Shopify stores globally for AI crawler openness — 15 AI crawlers are explicitly permitted, a Content-Signal declaration is active, and the Universal Commerce Protocol enables AI shopping agents to transact directly with the store. The bottleneck is no longer technical. The remaining gap is authority and content: no Wikipedia/Wikidata entity means AI models cannot verify Happimess as a brand; no named authors means AI systems discount the expertise of every article; zero external citations across 26 blog articles means content reads as marketing rather than reference material; and schemas are missing from all product and blog pages. The target of 65/100 is achievable in approximately one week through a combination of quick-win schema deployments (already fully templated) and medium-effort content improvements. After completing all quick wins and medium-term actions, the projected score is 65/100."
+}

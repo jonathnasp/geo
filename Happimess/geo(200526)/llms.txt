@@ -1,0 +1,35 @@
+# Happimess
+
+> Happimess is a New York City–based home organization brand founded in 2020. We design and curate trash cans, storage baskets, laundry hampers, kitchen accessories, and cleaning wipes that balance function with aesthetics. Every product undergoes a minimum 30-day evaluation — including 500+ open/close cycles for pedal and sensor mechanisms — before we add it to our catalog. We ship to the 48 contiguous United States.
+
+## Store
+
+- [All Products](https://happimess.com/collections/all): Browse the complete Happimess product catalog
+- [Trash Cans & Waste Bins](https://happimess.com/collections/trash): Step trash cans, sensor trash cans, dual-compartment bins, waste baskets, and indoor/outdoor trash cans
+- [Trash Bags & Liners](https://happimess.com/collections/trash-bags): Drawstring, scented, and unscented trash can liners in 4-gallon to 13-gallon sizes
+- [Organization — Bins, Baskets & Cubes](https://happimess.com/collections/organization): Bins, baskets, storage cubes, trays, carts, hampers, and under-bed storage
+- [Storage Furniture](https://happimess.com/collections/storage-furniture): Storage trunks, ottomans, benches, shelving units, and outdoor storage
+- [Kitchen & Bathroom Accessories](https://happimess.com/collections/kitchen-bathroom): Dish racks, paper towel holders, toilet paper holders, shower shelves, pantry organizers
+- [Wipes](https://happimess.com/collections/wipes): Heavy Duty, Mini, Plant, and Kitchen Hero cleaning wipes
+
+## Content
+
+- [Best Dual Trash Can for Kitchen (2026 Guide)](https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works): Tested guide to dual-compartment kitchen trash cans — what size to choose, pedal vs. sensor, recommended models. Updated May 2026.
+- [Why Choosing the Right Trash Bag Actually Matters](https://happimess.com/blogs/news/why-choosing-the-right-trash-bag-actually-matters): How bag thickness, scent, and size affect odor control and kitchen hygiene. May 2026.
+- [The Complete Guide to Choosing a Kitchen Trash Can](https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can): Capacity, lid mechanism, materials, and placement for kitchen waste bins. May 2026.
+- [Standard Kitchen Trash Can Size Guide](https://happimess.com/blogs/news/standard-kitchen-trash-can-size): What size trash can fits most kitchens — gallon equivalents, bag compatibility, and space planning. May 2026.
+- [Average Kitchen Trash Can Size](https://happimess.com/blogs/news/average-kitchen-trash-can-size): Data on typical trash can dimensions and capacity ranges for US households. May 2026.
+- [Living Room Storage Bench Guide](https://happimess.com/blogs/news/living-room-storage-bench): How to choose a storage bench for living rooms — size, material, weight capacity, and styling. May 2026.
+- [Blog — All Articles](https://happimess.com/blogs/news): 26 articles covering trash management, home organization, storage furniture, kitchen accessories, and eco-friendly living
+
+## Pages
+
+- [About Happimess](https://happimess.com/pages/about-us): Company story, NYC founding, product testing methodology (30-day evaluation, 500+ cycle testing), and team overview
+- [FAQs](https://happimess.com/pages/faqs): Answers to common questions about shipping (1–2 business days), returns (30-day policy, $10 per item), tracking, and product availability
+- [Ambassador Program](https://happimess.com/pages/ambassador-program): Happimess brand ambassador and affiliate program details
+- [Refill & Subscription](https://happimess.com/pages/refill-page): Subscription program for automatic trash bag and wipes refills
+- [Contact Us](https://happimess.com/pages/contact-us): Customer support — email hello@happimess.com, phone (917) 261-4961, Mon–Fri 9AM–5PM EST
+
+## Agent Instructions
+
+- [agents.md](https://happimess.com/agents.md): For AI agents performing transactions — Universal Commerce Protocol (UCP 2026-04-08) endpoints, Shop skill integration, and product browsing API
