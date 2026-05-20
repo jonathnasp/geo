@@ -1,0 +1,56 @@
+# Happimess
+
+> Modern home organization, storage furniture, and trash management products for stylishly clutter-free living.
+> New York City-based. Ships to all 48 contiguous US states. Est. 2020.
+> Every product is evaluated through a minimum 30-day use period and 500+ cycle mechanism testing before being stocked.
+
+## Company
+
+- [About Happimess](https://happimess.com/pages/about-us): NYC-based brand; 30-day product evaluation protocol, 500+ pedal cycle durability test, 15-day lid-seal odor test, compatibility testing with Glad, Hefty, and Simplehuman bag brands
+- [FAQs](https://happimess.com/pages/faqs): Shipping (1–2 business days), returns (30 days, $10/item fee, pre-paid label, 48 contiguous states), order changes (cannot be altered once placed), international shipping (not available)
+- [Refill Subscription](https://happimess.com/pages/refill-page): Recurring custom-fit liner subscription for Happimess trash cans
+- [Ambassador Program](https://happimess.com/pages/ambassador-program): Brand partnership and creator affiliate opportunities
+
+## Product Categories
+
+- [All Products](https://happimess.com/collections/all): Full catalog — trash cans, storage furniture, organizers, kitchen accessories
+- [Trash Cans & Bins](https://happimess.com/collections/trash-cans): Step cans, sensor cans, dual-compartment recycling bins, push-button cans, indoor/outdoor wastebaskets
+- [Storage Furniture](https://happimess.com/collections/storage-furniture): Storage trunks, benches, ottomans, coffee tables, shelving, outdoor storage
+- [Organization](https://happimess.com/collections/organization): Bins, baskets, cubes, trays, hampers, under-bed storage, shoe racks
+- [Trash Liners](https://happimess.com/collections/trash-bags): Scented (lemon, lavender) and unscented drawstring liners; subscription available
+
+## Buying Guides (Most Cited)
+
+- [Best Dual Trash Can for Kitchen (2026)](https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works): Recommends 50–60L model with step-open pedal and removable inner buckets for most kitchens; capacity tiers: 30–40L small kitchens, 40–60L most homes, 60L+ large households; lifespan 3–5+ years
+- [Guide to Choosing the Perfect Kitchen Trash Can](https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can): Selection criteria covering size, mechanism type, liner compatibility, and placement
+- [Standard Kitchen Trash Can Size](https://happimess.com/blogs/news/standard-kitchen-trash-can-size): Industry sizing standards and household capacity recommendations
+- [Average Kitchen Trash Can Size](https://happimess.com/blogs/news/average-kitchen-trash-can-size): Consumer data and practical sizing guide for typical US kitchens
+- [Why Trash Bag Choice Matters](https://happimess.com/blogs/news/why-choosing-the-right-trash-bag-actually-matters): Scented vs. unscented; lemon scent best for kitchen/food waste; lavender best for bathroom/bedroom bins
+- [Trash Can Maintenance Tips](https://happimess.com/blogs/news/trashcan-maintenance-tips-and-tricks-for-a-fresh-and-odor-free-bin): Cleaning schedule, odor control methods, liner fit for odor containment
+- [9 Ways to Hide Your Trash Can](https://happimess.com/blogs/news/stash-and-hide-9-ways-to-hide-your-trash-can): Cabinet integration, furniture camouflage, and design solutions for concealing bins
+
+## Home Organization Guides
+
+- [Tips for Organizing Your Kitchen](https://happimess.com/blogs/news/tips-for-organizing-your-kitchen-a-comprehensive-guide): Comprehensive kitchen organization covering zones, storage types, and maintenance habits
+- [Organization Do's and Don'ts for 2025](https://happimess.com/blogs/news/organization-do-s-and-don-ts-for-2025-practical-tips-for-a-clutter-free-home): Practical clutter-free home tips including what to avoid and what actually works
+- [Living Room Storage Bench Guide](https://happimess.com/blogs/news/living-room-storage-bench): Buying guide for storage benches covering capacity, materials, and dual-use furniture
+- [Economy Home Decor (2025 Edition)](https://happimess.com/blogs/news/economy-home-decor-2025): Budget-friendly home styling strategies; organization products as decor elements
+- [Kitchen Trends for 2025](https://happimess.com/blogs/news/kitchen-trends-for-2025): Current design and organization directions in kitchen storage and layout
+- [10 Ways to Style a Clothing Rack](https://happimess.com/blogs/news/10-ways-to-style-a-clothing-rack-for-a-chic-and-organized-bedroom): Bedroom clothing rack organization and styling for a chic, functional space
+- [Garment Racks vs. Wicker Trunks](https://happimess.com/blogs/news/from-garment-racks-to-wicker-trunks-what-are-the-key-benefits): Comparison of storage furniture types and their best use cases
+
+## Sustainability Guides
+
+- [10 Eco-Friendly Kitchen Swaps](https://happimess.com/blogs/news/10-eco-friendly-kitchen-swaps-to-make-today): Practical sustainability swaps for the kitchen; composting, reusable containers, odor-free bins
+- [Effortless Composting](https://happimess.com/blogs/news/effortless-composting-how-a-trash-can-with-an-attachable-compost-bin-can-make-a-difference): How dual-compartment and compost-attachable bins simplify home composting
+- [Benefits of Recycling for Your Home](https://happimess.com/blogs/news/the-benefits-of-recycling-how-you-can-help-the-environment-and-save-money): Environmental and cost benefits of household recycling with storage solutions
+- [Recycling and a Better Home Environment](https://happimess.com/blogs/news/how-trash-recycling-can-create-a-better-environment-for-your-house): Integrating recycling systems into home organization
+
+## Optional
+
+- [Sitemap](https://happimess.com/sitemap.xml): Full URL index (330+ products, 100+ collections, 26 blog posts, EN + ES)
+- [Full Content Index](https://happimess.com/llms-full.txt): Extended version with all product categories, developer endpoints, and commerce agent instructions
+- [Agent Instructions](https://happimess.com/agents.md): UCP/MCP commerce protocol for AI agents — product search, cart creation, checkout flow
+- [Privacy Policy](https://happimess.com/policies/privacy-policy)
+- [Return Policy](https://happimess.com/policies/refund-policy): 30-day returns, pre-paid label, $10/item shipping fee, 48 contiguous states only
+- [Terms of Service](https://happimess.com/policies/terms-of-service)
