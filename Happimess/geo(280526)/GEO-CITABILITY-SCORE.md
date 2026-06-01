@@ -1,433 +1,444 @@
 # GEO Citability Score — happimess.com
-**Audit Date:** May 28, 2026  
-**Pages Scored:** 5 (About Us, 3 blog articles, FAQ)  
-**Methodology:** Passage-level scoring across 5 dimensions
+**Original Audit:** May 28, 2026
+**This Recheck:** May 28, 2026 — full 6-page live crawl #3
+**Methodology:** Passage-level scoring per geo-citability rubric (5 dimensions, weighted)
 
 ---
 
-## Overall Citability Score: 66/100 — Fair
+## Overall Citability Score: 79/100 — Good *(up from 71)*
 
-> Happimess has one exceptional citability asset (the kitchen trash can guide) and one strong asset (the About Us testing methodology). The remaining content ranges from moderate to poor. The FAQ page is entirely transactional and contributes zero citability. The largest gaps are: lack of unique original data, author attribution inconsistency, and AI-generation indicators in secondary articles.
+> **2 more fixes confirmed live:** FIX 8 (5 product Q&As on FAQ page) and FIX 9 (Liner Bags section on Dual Guide). Combined +8 points. FAQ page alone jumped 32 → 71. **All remaining fixes are schema-only** — no content changes needed. Schema adds ~5 pts to composite.
 
-### Score Breakdown by Page
+### Score Trajectory
 
-| Page | Score | Tier | Top Passage |
-|------|-------|------|-------------|
-| Kitchen Trash Can Guide | **84/100** | Citation-Ready | Household sizing table with emptying frequency |
-| About Us — Testing Methodology | **82/100** | Citation-Ready | Product evaluation criteria with specific metrics |
-| Dual Trash Can Guide | **68/100** | Borderline | Intro direct-answer paragraph |
-| Standard Kitchen Trash Can Size | **54/100** | Citation-Unlikely | Basic sizing table |
-| FAQ Page | **32/100** | Citation-Unlikely | Return policy terms |
-
-**Overall Site Citability (weighted by page importance):** 66/100
-
----
-
-## Citability Scoring Methodology
-
-Each passage is scored on 5 dimensions:
-
-| Dimension | Weight | What It Measures |
-|-----------|--------|-----------------|
-| Answer Block Quality | 25% | Does this passage directly and completely answer a question an AI assistant would be asked? |
-| Self-Containment | 20% | Can it be quoted without surrounding context and still make sense? |
-| Structural Readability | 20% | Is it formatted for AI extraction (table, numbered list, definition, comparison)? |
-| Statistical Density | 20% | Does it contain specific numbers, measurements, durations, percentages? |
-| Uniqueness | 15% | Is this information proprietary to Happimess or generic information available everywhere? |
+| Check | Score | Change | What moved it |
+|-------|-------|--------|---------------|
+| Original audit | 66/100 | — | Baseline |
+| Check 2 — Standard Size improved | 68/100 | +2 | Word count + height data |
+| Check 3 — FIX 3 + FIX 4 + FIX 7 | 71/100 | +3 | Founder attribution, EPA stat, household table |
+| **Check 4 — FIX 8 + FIX 9 (now)** | **79/100** | **+8** | 5 product Q&As on FAQ, liner section on Dual Guide |
+| After all remaining schema fixes | ~84/100 | +5 | FIX 1+2+5+6+8schema+BONUS A+B |
+| After new articles | ~88/100 | +4 | Smell guide + placement guide |
 
 ---
 
-## Top 12 Citation-Ready Passages
+## Section 1 — Complete Fix Status (Live-Verified)
 
-### Passage 1 — Kitchen Trash Can Guide: Household Sizing Table
+| Fix | Description | Status | Evidence |
+|-----|-------------|--------|----------|
+| FIX 1 | Article + FAQPage + Speakable JSON-LD → Kitchen Guide | ❌ **Outstanding** | Zero JSON-LD on page |
+| FIX 2 | Organization + sameAs JSON-LD → `theme.liquid` | ❌ **Outstanding** | Zero Organization schema site-wide |
+| FIX 3 | Named founder → About Us | ✅ **Done** | "Jonathan Yaraghi, Happimess founder" confirmed live |
+| FIX 4 | EPA 32.1% verbatim stat → Dual Guide | ✅ **Done** | "32.1 percent recycling and composting rate" confirmed live |
+| FIX 5 | Article + FAQPage JSON-LD → Dual Guide | ❌ **Outstanding** | Zero JSON-LD on page |
+| FIX 6 | Article + FAQPage JSON-LD → Standard Size | ❌ **Outstanding** | Zero JSON-LD on page |
+| FIX 7 | Household-size table (4 cols) → Standard Size | ✅ **Done** | All 4 rows × 4 columns confirmed live |
+| FIX 8 content | 5 product-expertise Q&As → FAQ page | ✅ **Done** | "Product Questions" section + all 5 Q&As confirmed live (13 total) |
+| FIX 8 schema | FAQPage JSON-LD → FAQ page | ❌ **Outstanding** | Zero JSON-LD on page |
+| FIX 9 | Liner Bags section + 2,000+ words → Dual Guide | ✅ **Done** | "Liner Bags for Dual Trash Cans" section confirmed live; ~2,000 words |
+| BONUS A | Homepage brand identity paragraph | ❌ **Outstanding** | No informational text on homepage |
+| BONUS B | Homepage FAQPage JSON-LD | ❌ **Outstanding** | Zero schema on homepage |
+| BONUS C | New article: "How to Stop Kitchen Trash from Smelling" | ❌ **Not started** | — |
+| BONUS D | New article: "Kitchen Trash Can Placement Guide" | ❌ **Not started** | — |
 
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
-
-> | Household size | Recommended capacity | Typical height | Emptying frequency |
-> |---|---|---|---|
-> | 1 person | 4–8 gallons | 12–18 inches | Every 3–5 days |
-> | 2 people | 8–10 gallons | 16–22 inches | Every 2–4 days |
-> | 3–4 people | 10–13 gallons | 20–26 inches | Every 1–3 days |
-> | 5+ people | 15–20+ gallons | 24–30 inches | Daily or every other day |
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 95 | Directly answers "what size kitchen trash can do I need?" — high-frequency AI query |
-| Self-Containment | 90 | Complete as a standalone table |
-| Structural Readability | 98 | Table format is ideal for AI extraction |
-| Statistical Density | 92 | 4 variables × 4 household sizes = 16 specific data points |
-| Uniqueness | 65 | Sizing tables exist elsewhere, but the 4-column format with height and frequency is more specific than most |
-
-**Passage Score: 89/100 — Citation-Ready**
-
-**Target queries:** "what size kitchen trash can do I need," "how big should my kitchen trash can be," "kitchen trash can size chart," "how often should I empty my kitchen trash can"
+**Done: 6 | Outstanding: 8**
 
 ---
 
-### Passage 2 — About Us: Product Testing Methodology
+## Section 2 — Page Scores (This Recheck)
 
-**Source:** https://happimess.com/pages/about-us
+| Page | Check 3 Score | Check 4 Score | Change | Evidence |
+|------|--------------|--------------|--------|----------|
+| Kitchen Trash Can Guide | 84/100 | **84/100** | — | No new changes; schema still missing |
+| About Us | 90/100 | **90/100** | — | Stable; no schema yet |
+| Dual Trash Can Guide | 77/100 | **80/100** | **+3** | ✅ Liner Bags section live; word count at ~2,000 |
+| Standard Kitchen Trash Can Size | 70/100 | **70/100** | — | Stable; no schema yet |
+| FAQ Page | 32/100 | **71/100** | **+39** | ✅ 5 product Q&As + "Product Questions" heading live |
+| Homepage | 20/100 | **20/100** | — | No brand paragraph, no schema |
 
-> Each item undergoes minimum 30-day testing before catalog inclusion. Evaluation criteria: Pedal and sensor mechanisms tested for 500+ open/close cycles; lid seals tested with food waste over 15 days; stainless steel finishes evaluated for fingerprint resistance and corrosion; liner compatibility testing with Glad, Hefty, and Simplehuman trash bag brands; inner buckets and surfaces assessed for sanitization ease. Products failing any criterion are not added to the catalog.
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 85 | Answers "how does Happimess test products?" — a trust and E-E-A-T query |
-| Self-Containment | 88 | Fully standalone; includes brand name, specific numbers, named brands |
-| Structural Readability | 82 | List format with metric-specific bullets |
-| Statistical Density | 90 | 30-day minimum, 500+ cycles, 15-day odor test, 3 named bag brands |
-| Uniqueness | 95 | Proprietary methodology; no other brand publishes this level of specificity |
-
-**Passage Score: 87/100 — Citation-Ready**
-
-**Target queries:** "how does Happimess test their trash cans," "are Happimess products quality-tested," "what trash can brands test for durability"
+**5-page composite (excluding homepage): 79/100**
 
 ---
 
-### Passage 3 — Kitchen Trash Can Guide: Lid Type Comparison Table
+## Section 3 — Score Summary by Dimension
 
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
-
-> | Lid type | Hands-free? | Noise level | Price tier | Best for |
-> |---|---|---|---|---|
-> | Step-open (pedal) | Yes | Silent to medium | $$–$$$ | Families, daily cooking households |
-> | Sensor / touchless | Yes | Silent | $$$–$$$$ | Hygiene-focused, mobility-limited users |
-> | Push-lid (swing top) | Partial | Silent | $ | Budget buyers, low-traffic spaces |
-> | Open-top (no lid) | Yes | N/A | $ | Dry waste, recycling staging areas |
-> | Dome-lid (rock lid) | No | Silent | $–$$ | Small spaces, bathrooms, guest rooms |
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 88 | Directly answers "what type of trash can lid is best" and sub-queries per type |
-| Self-Containment | 85 | Complete comparison; self-explanatory without surrounding text |
-| Structural Readability | 95 | Table format; 5 rows × 5 columns = maximum AI parse efficiency |
-| Statistical Density | 72 | Qualitative attributes rather than quantitative metrics |
-| Uniqueness | 68 | Comparison tables for lid types exist, but 5-type coverage with all 5 columns is more comprehensive than most |
-
-**Passage Score: 83/100 — Citation-Ready**
-
-**Target queries:** "best kitchen trash can lid type," "step-open vs sensor trash can," "hands-free trash can comparison," "what type of trash can is best for kitchen"
+| Dimension | Weight | Score | Weighted | vs. Check 3 |
+|-----------|--------|-------|----------|-------------|
+| Answer Block Quality | 30% | 80/100 | 24.0 | +5 |
+| Passage Self-Containment | 25% | 80/100 | 20.0 | +4 |
+| Structural Readability | 20% | 80/100 | 16.0 | +2 |
+| Statistical Density | 15% | 78/100 | 11.7 | +4 |
+| Uniqueness & Original Data | 10% | 74/100 | 7.4 | +5 |
+| **Overall** | | | **79.1/100** | **+8** |
 
 ---
 
-### Passage 4 — Kitchen Trash Can Guide: Testing Methodology (Full)
+## Section 4 — Per-Page Block Analysis
 
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
+### Page 1: Kitchen Trash Can Guide — 84/100
 
-> Every trash can in the Happimess catalog is evaluated over a minimum 30-day use period under real household conditions: mechanism durability (pedal and sensor mechanisms tested for minimum 500 open-close cycles per week); lid seal and odor containment (full-perimeter seal contact assessed); material finish longevity (stainless finishes evaluated for fingerprint resistance, scratch resistance, and finish consistency); liner compatibility (tested with Glad, Hefty, and Simplehuman bags); cleaning practicality (inner buckets and lid undersides cleaned weekly during evaluation). Products that fail any single criterion during the 30-day evaluation are not added to our catalog.
+| Section | Words | Answer | Self-Contain | Structure | Stats | Unique | Score |
+|---------|-------|--------|-------------|-----------|-------|--------|-------|
+| Intro paragraph | 62 | 88 | 85 | 80 | 72 | 70 | 82 |
+| What Size? + sizing table | 180 | 95 | 92 | 98 | 92 | 65 | 91 |
+| Lid Types + comparison table | 320 | 88 | 85 | 95 | 72 | 68 | 85 |
+| Material Guide + table | 210 | 82 | 88 | 95 | 78 | 65 | 83 |
+| Single vs Dual section | 150 | 75 | 78 | 72 | 65 | 60 | 72 |
+| Features Worth Paying For | 280 | 78 | 80 | 78 | 75 | 68 | 77 |
+| Features Not Worth Premium | 180 | 72 | 74 | 72 | 60 | 65 | 70 |
+| How We Test (methodology) | 160 | 88 | 90 | 85 | 88 | 93 | 89 |
+| FAQ — 5 Q&As | 220 | 92 | 95 | 85 | 82 | 62 | 87 |
+| Recommendations by Type | 180 | 78 | 80 | 78 | 72 | 65 | 76 |
 
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 84 | Answers "how does Happimess evaluate quality" and general "how should I evaluate a trash can" |
-| Self-Containment | 86 | Brand name included; specific numbers; fully standalone |
-| Structural Readability | 82 | Structured list with parenthetical detail |
-| Statistical Density | 88 | Multiple specific metrics; criteria count; named brands |
-| Uniqueness | 93 | Proprietary criteria with named brand testing is unique |
-
-**Passage Score: 86/100 — Citation-Ready**
-
----
-
-### Passage 5 — Kitchen Trash Can Guide: FAQ — Most Common Size
-
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
-
-> "The most common kitchen trash can size in US households is 13 gallons. This size fits the standard 13-gallon kitchen trash bags sold at all major retailers (Glad, Hefty, Great Value) and accommodates daily waste volume for 2–4 person households without requiring daily emptying."
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 92 | Perfect direct answer to "what is the most common kitchen trash can size" |
-| Self-Containment | 95 | One paragraph; complete answer; no context needed |
-| Structural Readability | 85 | Prose paragraph; no table needed for this format |
-| Statistical Density | 82 | 3 named retailers; explicit household range; no-daily-emptying qualifier |
-| Uniqueness | 62 | The 13-gallon figure is widely cited; the retailer specifics add some uniqueness |
-
-**Passage Score: 84/100 — Citation-Ready**
-
-**Target queries:** "most common kitchen trash can size," "standard trash can size US," "what size trash bag for kitchen"
+**Citability Coverage (blocks >70): 10/10 = 100%**
+**Top passage:** Sizing table (91) | **Weakest:** Features Not Worth Premium (70)
 
 ---
 
-### Passage 6 — Kitchen Trash Can Guide: Step-Open Mechanism Description
+### Page 2: About Us — Testing Methodology — 90/100
 
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
+| Section | Words | Answer | Self-Contain | Structure | Stats | Unique | Score |
+|---------|-------|--------|-------------|-----------|-------|--------|-------|
+| Founder + testing methodology | 95 | 92 | 95 | 82 | 92 | 95 | **91** |
+| Brand overview / mission | 80 | 70 | 72 | 68 | 45 | 65 | 67 |
+| Product category descriptions | 120 | 65 | 68 | 70 | 40 | 60 | 63 |
 
-> "A well-engineered pedal mechanism uses a damped closing arm, stainless steel pivot points, and a spring calibrated for thousands of cycles. When evaluating a step-open can, test the pedal resistance (should engage smoothly with light foot pressure) and the lid's closing speed (soft-close should take 2–3 seconds from open to fully closed). Expect 5–10 years from a well-made step-open can under normal household use."
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 82 | Answers "what makes a good step-open trash can" and "how long do step trash cans last" |
-| Self-Containment | 85 | Fully self-contained with specific technical details |
-| Structural Readability | 78 | Prose with parenthetical specs — readable for AI extraction |
-| Statistical Density | 85 | 2-3 second close time; 5-10 year lifespan; "thousands of cycles" |
-| Uniqueness | 72 | Technical specifications this precise are uncommon in consumer content |
-
-**Passage Score: 81/100 — Citation-Ready**
+**Citability Coverage: 1/3 = 33%**
+**Top passage:** Founder + methodology (91/100) — site's highest-scoring passage
+**Note:** The methodology paragraph alone is the strongest E-E-A-T signal on the entire site.
 
 ---
 
-### Passage 7 — Kitchen Trash Can Guide: FAQ — Is Stainless Steel Worth It?
+### Page 3: Dual Trash Can Guide — 80/100 *(was 77)*
 
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
+| Section | Words | Answer | Self-Contain | Structure | Stats | Unique | Score |
+|---------|-------|--------|-------------|-----------|-------|--------|-------|
+| Intro paragraph | 65 | 88 | 85 | 82 | 78 | 68 | 83 |
+| Why Worth It (EPA 32.1%) | 90 | 84 | 85 | 78 | 88 | 72 | **83** |
+| Common Problems | 55 | 45 | 50 | 60 | 30 | 45 | 47 |
+| What to Look For | 120 | 70 | 68 | 75 | 55 | 55 | 67 |
+| Recommended Product | 80 | 62 | 60 | 65 | 45 | 55 | 60 |
+| Real-Life Use Cases | 60 | 42 | 45 | 50 | 20 | 40 | 41 |
+| Dual vs Single table | 70 | 65 | 72 | 88 | 42 | 55 | 65 |
+| Not Recommended | 50 | 48 | 50 | 55 | 35 | 45 | 48 |
+| Pro Tips | 55 | 52 | 55 | 60 | 28 | 42 | 50 |
+| **Liner Bags (FIX 9 — new)** | 160 | 82 | 85 | 78 | 80 | 78 | **81** |
+| FAQ — 5 Q&As | 100 | 78 | 80 | 78 | 68 | 60 | 75 |
+| Summary | 60 | 55 | 58 | 60 | 30 | 45 | 52 |
 
-> "For a primary kitchen can with daily use from a family household, yes. Stainless steel's non-porous surface does not absorb or retain odors the way plastic does over 12–24 months of use. The additional upfront cost ($40–$100 more than comparable plastic) is recovered in a longer service life (5–10 years vs 2–5 years for plastic) and better long-term odor management."
+**Citability Coverage (blocks >70): 4/12 = 33%**
+**Top passages:** Intro (83), Why Worth It/EPA (83), Liner Bags (81)
+**Weakest:** Real-Life Use Cases (41) — emoji headers, no data, 1 sentence per section
 
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 88 | Perfect direct answer to a high-frequency comparison query |
-| Self-Containment | 90 | Complete answer; includes question framing |
-| Structural Readability | 82 | Prose paragraph with embedded cost comparison |
-| Statistical Density | 85 | $40-$100 price differential; 12-24 month odor timeline; 5-10 vs 2-5 year lifespan comparison |
-| Uniqueness | 68 | Price differential and lifespan data is somewhat generic |
-
-**Passage Score: 83/100 — Citation-Ready**
-
-**Target queries:** "is stainless steel trash can worth it," "stainless steel vs plastic trash can," "why is stainless steel better for trash cans"
-
----
-
-### Passage 8 — Dual Trash Can Guide: Direct-Answer Opening
-
-**Source:** https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works
-
-> "The best dual-compartment trash can for most kitchens is a 50–60 liter model with a manual step-open pedal, soft-close lid, and removable inner buckets. Dual cans separate trash from recycling at the point of disposal — reducing cross-contamination and eliminating a second standalone bin. Well-built models with quality pedal mechanisms last 3–5+ years with daily use."
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 90 | Textbook direct-answer structure; answers "best dual trash can for kitchen" immediately |
-| Self-Containment | 88 | One paragraph; no context needed; brand-agnostic framing |
-| Structural Readability | 82 | Prose with embedded specifications |
-| Statistical Density | 80 | 50-60 liter range; 3-5+ year lifespan; implies recycling contamination reduction |
-| Uniqueness | 60 | Direct-answer openers are a common SEO pattern; less unique than the testing data |
-
-**Passage Score: 81/100 — Citation-Ready**
-
-**Target queries:** "best dual trash can for kitchen," "dual compartment trash can recommendation," "trash can with recycling compartment"
+**Remaining weak blocks fix:** The "Real-Life Use Cases," "Not Recommended," and "Pro Tips" sections are thin (1-2 sentences, no data). These are low-priority but each could gain +10-15 pts with 2 added sentences and 1 specific metric.
 
 ---
 
-### Passage 9 — Kitchen Trash Can Guide: Material Comparison Table
+### Page 4: Standard Kitchen Trash Can Size — 70/100
 
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
+| Section | Words | Answer | Self-Contain | Structure | Stats | Unique | Score |
+|---------|-------|--------|-------------|-----------|-------|--------|-------|
+| Intro paragraph | 55 | 88 | 90 | 80 | 85 | 60 | 84 |
+| **Household-size table (FIX 7)** | 80 | 92 | 95 | 98 | 92 | 68 | **91** |
+| Why Size Matters | 120 | 55 | 58 | 68 | 30 | 40 | 53 |
+| Standard Sizes table | 80 | 75 | 82 | 92 | 72 | 55 | 76 |
+| Factors to Consider | 180 | 62 | 65 | 72 | 35 | 42 | 59 |
+| How to Measure | 90 | 65 | 68 | 72 | 40 | 45 | 61 |
+| Modern Features | 80 | 60 | 62 | 70 | 35 | 42 | 57 |
+| Expert Tips | 280 | 58 | 60 | 68 | 32 | 38 | 54 |
+| Tips for Efficiency | 80 | 55 | 58 | 65 | 30 | 38 | 52 |
+| FAQ — 4 Q&As | 120 | 72 | 78 | 72 | 58 | 48 | 69 |
+| Buying Guide | 110 | 60 | 62 | 70 | 32 | 40 | 57 |
+| Conclusion | 90 | 68 | 70 | 65 | 45 | 42 | 63 |
 
-> | Material | Odor resistance | Durability | Weight | Price tier | Best for |
-> |---|---|---|---|---|---|
-> | Stainless steel | Excellent | 5–10 years | Heavy | $$–$$$$ | Primary kitchen can, high-use |
-> | Matte plastic | Good | 2–5 years | Light | $–$$ | Budget, secondary rooms |
-> | Plastic inner / metal outer | Good | 3–6 years | Medium | $$–$$$ | Balance of cost and durability |
-> | Recycled plastic | Good | 3–5 years | Light | $–$$$ | Eco-focused households |
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 82 | Directly answers "trash can material comparison" queries |
-| Self-Containment | 88 | Table is self-explanatory |
-| Structural Readability | 95 | Table format; ideal for AI |
-| Statistical Density | 78 | Durability in years for each material is the key quantitative element |
-| Uniqueness | 65 | Material comparisons are fairly standard; 4-material coverage with years and price tiers is above average |
-
-**Passage Score: 82/100 — Citation-Ready**
-
----
-
-### Passage 10 — Kitchen Trash Can Guide: Sensor Can Specifications
-
-**Source:** https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can
-
-> "Sensor cans use infrared motion detection. Key specifications to evaluate: sensor range (6–12 inches is standard), battery type (D-cell alkaline or rechargeable Li-ion), battery life (quality models run 3–6 months on standard batteries). Avoid models with sensors that false-trigger when someone walks past."
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 78 | Answers "what should I look for in a sensor trash can" |
-| Self-Containment | 82 | Complete spec block; standalone |
-| Structural Readability | 85 | Three-item spec list |
-| Statistical Density | 88 | 6-12 inch range; 3-6 month battery life; D-cell and Li-ion types |
-| Uniqueness | 72 | These specs are available from product manuals; framing as buying criteria adds value |
-
-**Passage Score: 81/100 — Citation-Ready**
+**Citability Coverage (blocks >70): 3/12 = 25%**
+**Top passages:** Household-size table (91), Standard Sizes table (76), Intro (84)
+**Drag:** Most middle sections are generic advice with no specific metrics — "Place bin near prep areas" scores low on stats and uniqueness.
 
 ---
 
-### Passage 11 — Dual Trash Can Guide: Capacity Sizing Reference
+### Page 5: FAQ Page — 71/100 *(was 32)*
 
-**Source:** https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works
+| Section | Words | Answer | Self-Contain | Structure | Stats | Unique | Score |
+|---------|-------|--------|-------------|-----------|-------|--------|-------|
+| Logistics Q&As (8) | 280 | 55 | 75 | 70 | 45 | 30 | 57 |
+| **Product Questions (5) — FIX 8** | 420 | 88 | 85 | 80 | 82 | 75 | **84** |
 
-> "Ideal capacity: Small kitchens → 30–40L; Most homes → 40–60L (best balance); Large households → 60L+. For most kitchens, a 40L dual trash can is the sweet spot."
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 85 | Direct answer to "what size dual trash can do I need" |
-| Self-Containment | 88 | Completely self-contained sizing reference |
-| Structural Readability | 82 | Arrow-separated list; compact |
-| Statistical Density | 75 | Three liter ranges; explicit recommendation |
-| Uniqueness | 60 | Liter-based sizing is more precise than gallon guides; still generic concept |
-
-**Passage Score: 78/100 — Borderline Citation-Ready**
+**Citability Coverage (blocks >70): 1/2 = 50%**
+**Top passage:** Product Questions block (84/100) — now the 3rd highest-scoring page block on the site
+**Gap:** FAQPage JSON-LD schema not yet added (+3-5 pts when done)
 
 ---
 
-### Passage 12 — Dual Trash Can Guide: Dual vs. Single Comparison Table
+### Page 6: Homepage — 20/100
 
-**Source:** https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works
+| Section | Words | Answer | Self-Contain | Structure | Stats | Unique | Score |
+|---------|-------|--------|-------------|-----------|-------|--------|-------|
+| Brand Identity (H1 only) | 5 | 5 | 5 | 15 | 0 | 10 | 7 |
+| Trending Products (grid) | 80 | 10 | 25 | 40 | 25 | 30 | 24 |
+| Scented Liners promo | 10 | 12 | 18 | 25 | 0 | 25 | 16 |
+| Trays category | 5 | 5 | 5 | 20 | 0 | 10 | 8 |
+| Newsletter | 10 | 0 | 5 | 15 | 0 | 5 | 5 |
+| Contact Us | 30 | 50 | 85 | 55 | 45 | 75 | 62 |
 
-> | Feature | Dual Trash Can | Single Trash Can |
-> |---------|---|---|
-> | Waste separation | Yes | No |
-> | Organization | High | Low |
-> | Convenience | Better | Limited |
-> | Space efficiency | Smart use | Requires multiple bins |
-
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Answer Block Quality | 72 | Answers "dual vs single trash can" but attributes are qualitative, not quantitative |
-| Self-Containment | 85 | Table is fully self-contained |
-| Structural Readability | 92 | Clean table format |
-| Statistical Density | 42 | All qualitative attributes; no measurements or statistics |
-| Uniqueness | 55 | Generic comparison; available information |
-
-**Passage Score: 69/100 — Borderline**
+**Citability Coverage: 0/6 = 0%**
 
 ---
 
-## Citation-Unlikely Content
+## Section 5 — Strongest Passages Across Site (Live-Verified)
 
-### FAQ Page — All 8 Q&As: Score 32/100
-
-All 8 FAQ questions are logistics/transactional: shipping times, promo codes, order changes, return policy, tracking, waitlist, international shipping, order cancellation. Zero product expertise content. An AI asked "what size trash can should I buy" or "how do I reduce kitchen odors" will not cite this page.
-
-**Fix:** Add 5 product-expertise Q&As targeting the queries above. Example:
-- "What size kitchen trash can is right for my household?" (answer: the sizing table from the guide)
-- "How do I prevent my trash can from smelling?" (answer: lid seal, liner type, emptying frequency)
-- "Should I get a step-open or touchless trash can?" (answer: the lid type comparison)
-- "Are dual-compartment trash cans worth it?" (short direct answer + link to guide)
-- "What trash bags fit a 13-gallon can?" (answer: standard kitchen bags from any major retailer)
-
-### Standard Kitchen Trash Can Size — Score 54/100
-
-The article covers the topic but thins out after the sizing table. The fetched version shows a basic 4-row capacity table but lacks the depth of the kitchen guide. Key missing elements: emptying frequency data, height measurements, household-specific recommendations by cooking volume.
-
-### Homepage — Score 38/100
-
-Purely navigational. Product category links, promotional callouts, newsletter signup. No passage answers any informational query. Expected for an e-commerce homepage.
+| # | Passage | Page | Score | Status |
+|---|---------|------|-------|--------|
+| 1 | About Us: founder + testing methodology | About Us | **91/100** | ✅ Live |
+| 2 | Household-size table (4 cols × 4 rows) | Standard Size | **91/100** | ✅ Live |
+| 3 | Sizing table with emptying frequency | Kitchen Guide | **91/100** | ✅ Live |
+| 4 | FAQ Product Questions block (5 Q&As) | FAQ Page | **84/100** | ✅ Live (new) |
+| 5 | Kitchen Guide FAQ — 5 Q&As | Kitchen Guide | **87/100** | ✅ Live |
+| 6 | How We Test methodology | Kitchen Guide | **89/100** | ✅ Live |
+| 7 | Lid type comparison table | Kitchen Guide | **85/100** | ✅ Live |
+| 8 | Intro direct-answer paragraph | Dual Guide | **83/100** | ✅ Live |
+| 9 | EPA 32.1% source-separation paragraph | Dual Guide | **83/100** | ✅ Live (fixed) |
+| 10 | Liner Bags section | Dual Guide | **81/100** | ✅ Live (new) |
+| 11 | Material comparison table | Kitchen Guide | **83/100** | ✅ Live |
+| 12 | Dual vs Single comparison table | Dual Guide | 65/100 | ✅ Live (qualitative only) |
 
 ---
 
-## Page-Level Citability Summary
+## Section 6 — All Remaining Fixes (Schema Only — Ready to Paste)
 
-### Best Article: Kitchen Trash Can Guide — 84/100
-
-This is the site's single best content asset. It contains:
-- 4 comparison tables (sizing, lid types, materials, features)
-- 5 FAQ Q&As with substantive answers
-- 3 product recommendations with specific specs
-- Proprietary testing criteria with named brands and durations
-- Technical specifications for each lid type (close time, sensor range, battery life)
-
-**If Happimess only had budget to optimize one page for AI citability, this is it.**
-
-Key improvement: The testing methodology section appears both here and on About Us, but this version is more detailed. The article should add `speakableSpecification` schema pointing to the FAQ section and comparison tables so AI assistants can extract them directly.
-
-### Strong Asset: About Us Testing Methodology — 82/100
-
-The product evaluation criteria block is the strongest E-E-A-T passage on the site. It's unique (no competitor publishes this level of detail), specific (30 days, 500+ cycles, 15 days, 3 named brands), and self-contained. It needs one improvement: attribution to a named person (e.g., "Jonathan Yaraghi, our founder and product lead, oversees each evaluation").
-
-### Moderate: Dual Trash Can Guide — 68/100
-
-Strong opening paragraph and capacity sizing guide, but the article is relatively thin (~1,300 words). The EPA reference is present but the quoted text appears to be an AI paraphrase, not verbatim source language — this reduces verifiability for AI systems that cross-check citations. The comparison table is qualitative rather than quantitative.
-
-**Fix:** Expand to 2,000+ words with: (1) original data from Happimess's product testing (e.g., "we found that 70% of households returned to single cans within 3 months of using a divider-only model — which is why we only carry true dual-bucket designs"), (2) a sizing table matching the kitchen guide's household-size format, and (3) corrected EPA citation with verbatim source text.
+All content fixes are complete. Everything remaining is JSON-LD schema.
 
 ---
 
-## Citability Gap Analysis
+### FIX 1 — JSON-LD: Kitchen Guide *(highest priority)*
+**Where:** Shopify Admin → Content → Blog Posts → Kitchen Trash Can Guide → HTML editor → paste before `</body>`
+**Gain: +6 pts on page (84 → 90)**
 
-### Queries Where Happimess Has No Citable Content
-
-| Query | Monthly Searches (est.) | Gap |
-|-------|------------------------|-----|
-| "how to get rid of kitchen trash smell" | High | No article |
-| "best trash bags for kitchen" | High | Partial (trash bag article needs work) |
-| "how often should you take out the trash" | Medium | Partial (emptying frequency in guide) |
-| "kitchen trash can placement ideas" | Medium | No article |
-| "how to clean a smelly trash can" | Medium | Referenced in About Us but no article |
-| "garbage can vs trash can vs waste bin" | Low | No article |
-| "how long do trash bags last in can" | Low | No article |
-
-These are all product-adjacent informational queries where a well-structured, data-rich article would give Happimess a real chance at AI citation.
-
----
-
-## Rewrite Recommendations
-
-### Rewrite 1 — About Us: Add Founder Attribution
-
-**Current:**
-> "Each item undergoes minimum 30-day testing before catalog inclusion."
-
-**Improved:**
-> "Jonathan Yaraghi, Happimess founder, built the evaluation process based on his experience sourcing furniture for the high-end home goods market. Every product in the catalog passes a minimum 30-day evaluation: pedal and sensor mechanisms tested for 500+ open/close cycles; lid seals tested with food waste over 15 days; stainless finishes tested for fingerprint resistance and corrosion; liner compatibility verified with Glad, Hefty, and Simplehuman bag brands. Any product that fails a single criterion is not listed."
-
-**Citability impact:** +8 points on the passage (adds Experience dimension to E-E-A-T; founder attribution makes this a named-expert claim rather than anonymous corporate claim).
-
----
-
-### Rewrite 2 — Dual Trash Can Guide: EPA Reference
-
-**Current (AI paraphrase — unverifiable):**
-> "According to the U.S. Environmental Protection Agency, 'separating recyclable materials at the source helps reduce contamination and improves recycling efficiency in households.'"
-
-**Improved (use a real verifiable EPA statistic):**
-> "The U.S. EPA reports that the national recycling rate in the US is approximately 32%, with contamination from improper sorting identified as a primary barrier to higher rates (EPA, Advancing Sustainable Materials Management, 2023). Source-separation — sorting at the disposal point rather than sorting a mixed stream — is the most effective contamination-reduction method for household recycling programs."
-
-**Citability impact:** +15 points on the passage (real statistic with year, real report name, verifiable claim → enables AI citation chains).
-
-**Note:** Verify the EPA report and exact figure before publishing. The principle of source-separation is well-documented in EPA recycling guidance.
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "The Complete Guide to Choosing the Perfect Kitchen Trash Can",
+      "description": "Choosing the right kitchen trash can comes down to four decisions: size (10–13 gallons for most households), lid type, material, and compartments.",
+      "author": {"@type": "Organization", "name": "Happimess Editorial Team", "url": "https://happimess.com/pages/about-us"},
+      "publisher": {"@type": "Organization", "name": "Happimess", "url": "https://happimess.com"},
+      "datePublished": "2025-04-24",
+      "dateModified": "2026-05-14",
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://happimess.com/blogs/news/the-guide-to-choosing-the-perfect-kitchen-trash-can"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h2", "h3", "table"]}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What is the most common kitchen trash can size?", "acceptedAnswer": {"@type": "Answer", "text": "The most common kitchen trash can size in US households is 13 gallons. This size fits standard 13-gallon kitchen trash bags sold at all major retailers (Glad, Hefty, Great Value) and accommodates daily waste volume for 2–4 person households without requiring daily emptying."}},
+        {"@type": "Question", "name": "How often should a kitchen trash can be emptied?", "acceptedAnswer": {"@type": "Answer", "text": "A 13-gallon can in a 2–4 person household cooking most meals at home should be emptied every 1–3 days. Wet food waste should be emptied within 24–48 hours regardless of fill level."}},
+        {"@type": "Question", "name": "What is the best trash can for a small kitchen?", "acceptedAnswer": {"@type": "Answer", "text": "For small kitchens under 100 square feet, a 7–10 gallon step-open can with a slim profile (under 10 inches wide) provides adequate capacity without dominating floor space."}},
+        {"@type": "Question", "name": "Is stainless steel worth the extra cost for a kitchen trash can?", "acceptedAnswer": {"@type": "Answer", "text": "For a primary kitchen can with daily family use, yes. Stainless steel does not absorb odors the way plastic does over 12–24 months. The additional cost ($40–$100 more) is recovered in a longer service life (5–10 years vs 2–5 years for plastic)."}},
+        {"@type": "Question", "name": "What size trash bag fits a 13-gallon can?", "acceptedAnswer": {"@type": "Answer", "text": "Standard 13-gallon kitchen trash bags fit all 13-gallon trash cans — sold as 'kitchen' or 'tall kitchen' bags at any grocery, warehouse, or hardware store."}}
+      ]
+    }
+  ]
+}
+</script>
+```
 
 ---
 
-### Rewrite 3 — FAQ Page: Add 5 Product-Expertise Q&As
+### FIX 2 — JSON-LD: Organization + sameAs *(site-wide, one paste)*
+**Where:** Shopify Admin → Online Store → Themes → Edit Code → `layout/theme.liquid` → inside `<head>`
+**Gain: +3 pts composite across all pages**
 
-**Current:** 8 logistics Q&As only (shipping, returns, tracking)
-
-**Add these 5 Q&As:**
-
-> **Q: What size kitchen trash can is right for a 3-4 person household?**  
-> A: A 10–13 gallon trash can is right for most 3–4 person households cooking at home 4–7 times per week. This size accommodates typical daily waste volume and is emptied every 1–3 days. It also fits the standard kitchen trash bags sold at all major US retailers, which means no specialty liners required. For households that generate significant food packaging waste (online grocery orders, meal kit delivery), a 13-gallon model emptied every 1–2 days is the better choice.
-
-> **Q: What is the difference between a 13-gallon and an 8-gallon trash can?**  
-> A: A 13-gallon trash can is the US standard for primary kitchen use — it fits standard tall kitchen bags and handles 2–4 days of waste for a 3–4 person household. An 8-gallon can is better suited for a secondary location (bathroom, home office, small apartment kitchen) where waste volume is lower. Happimess 8-gallon cans (Oscar, Ashley, Elmo series) are designed for compact spaces where a full 13-gallon footprint is impractical.
-
-> **Q: How do I stop my kitchen trash can from smelling?**  
-> A: Odor comes from three sources: wet food waste, lid seal failure, and liner bag fit. The most effective approach: (1) Use a trash can with a full-perimeter lid seal — lids that gap at the sides leak odor continuously; (2) Line with scented bags that have odor-neutralizing technology rather than just masking agents; (3) Empty wet food waste (fish, meat scraps, cooked food) within 24–48 hours regardless of fill level. Happimess scented liners use activated odor-neutralizing chemistry paired with a lemon or lavender scent layer.
-
-> **Q: Is a step-open or sensor trash can better for a kitchen?**  
-> A: Step-open (pedal) trash cans are the better choice for most kitchens. They require no batteries, have no electronic components to fail, work reliably in all lighting conditions, and are mechanically simpler to repair if the pedal stiffens. Sensor cans are better for users with mobility limitations or households that prioritize fully hands-free operation. The tradeoff is battery cost and occasional false triggers when people walk near the can. Happimess carries both types — the Oscar and Elmo use step-open mechanisms; the Robo uses infrared sensor technology.
-
-> **Q: What trash bags fit Happimess trash cans?**  
-> A: Happimess 8-gallon cans (Oscar, Ashley, Elmo, Molly, Nathan, Chuck) are designed for standard 13-gallon kitchen bags — the most widely available bag size at all US retailers (Glad ForceFlex 13-gallon, Hefty Ultra Strong 13-gallon, Great Value 13-gallon all fit). The Slyd (10.6 gallon) also uses 13-gallon bags. Happimess scented drawstring liners are specifically sized and tested for the 8-gallon step-open models.
-
-**Citability impact:** Each of these Q&As scores 78–85/100 and directly targets queries that route to Happimess product pages. The FAQ page would go from 32/100 to 76/100.
-
----
-
-## Priority Improvements for Citability
-
-| Priority | Action | Page | Estimated Score Gain | Effort |
-|----------|--------|------|---------------------|--------|
-| 1 | Add founder attribution + named voice to testing methodology | About Us | +8 pts on page | Low |
-| 2 | Add 5 product-expertise Q&As to FAQ page | /pages/faqs | +44 pts on page | Medium |
-| 3 | Add speakable schema to kitchen guide targeting comparison tables | Blog article | +5 pts composite | Low |
-| 4 | Fix EPA citation in dual trash can guide — use real verbatim statistic | Blog article | +10 pts on passage | Low |
-| 5 | Expand dual trash can guide to 2,000+ words with original data | Blog article | +12 pts on page | High |
-| 6 | Create "How to Stop Kitchen Trash from Smelling" guide | New article | New high-citability asset | Medium |
-| 7 | Create "Kitchen Trash Can Placement Guide" | New article | New high-citability asset | Medium |
-| 8 | Add "Last Updated" dates visible on all blog listing cards | /blogs/news/ | Freshness signal for AI | Low |
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Happimess",
+  "url": "https://happimess.com",
+  "description": "Happimess sells home organization, storage, and kitchen trash management products. Founded in New York City. Every product undergoes a minimum 30-day evaluation — pedal and sensor mechanisms tested for 500+ open/close cycles, liner compatibility verified with Glad, Hefty, and Simplehuman brands.",
+  "foundingLocation": {"@type": "Place", "name": "New York City, NY, USA"},
+  "sameAs": [
+    "https://www.instagram.com/happimess_official/",
+    "https://www.facebook.com/happimessofficial/",
+    "https://www.linkedin.com/company/happimesshome/",
+    "https://www.pinterest.com/happimess_/",
+    "https://www.youtube.com/channel/UC6lUDdoZeZrYnoY2kmZyf4g",
+    "https://www.tiktok.com/@happimess_official"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "hoursAvailable": "Mo-Fr 09:00-17:00",
+    "url": "https://happimess.com/pages/faqs",
+    "email": "hello@happimess.com",
+    "telephone": "+19172614961"
+  }
+}
+</script>
+```
 
 ---
 
-## Competitive Context
+### FIX 5 — JSON-LD: Dual Guide
+**Where:** Blog Posts → Dual Guide → HTML editor → paste before `</body>`
+**Gain: +3 pts on page (80 → 83)**
 
-Happimess's best content (kitchen trash can guide, 84/100) is competitive with category-leading guides from The Spruce and Consumer Reports on citability structure. The testing methodology (82/100) is unique — no direct competitor publishes equivalent proprietary criteria at this level of detail.
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Dual Trash Can for Kitchen 2026: Guide to What Actually Works",
+      "description": "The best dual-compartment trash can for most kitchens is a 50–60 liter model with a manual step-open pedal, soft-close lid, and removable inner buckets.",
+      "author": {"@type": "Organization", "name": "Happimess Editorial Team", "url": "https://happimess.com/pages/about-us"},
+      "publisher": {"@type": "Organization", "name": "Happimess", "url": "https://happimess.com"},
+      "datePublished": "2026-04-22",
+      "dateModified": "2026-05-28",
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://happimess.com/blogs/news/best-dual-trash-can-for-kitchen-2026-guide-what-actually-works"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What size dual trash can is best for most homes?", "acceptedAnswer": {"@type": "Answer", "text": "Most homes benefit from a 50–60L dual trash can. Small kitchens: 30–40L. Most households: 40–60L. Large households: 60L+."}},
+        {"@type": "Question", "name": "Are dual trash cans worth it?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for households with mandatory recycling separation or those generating significant weekly recycling. A dual can eliminates a second standalone bin and reduces floor space use."}},
+        {"@type": "Question", "name": "Do dual trash cans use standard bags?", "acceptedAnswer": {"@type": "Answer", "text": "Each compartment in a standard 50L dual can is approximately 25L (6.5 gallons). Standard 13-gallon bags are too large — use 4–8 gallon bags per compartment for proper fit."}},
+        {"@type": "Question", "name": "Is pedal better than sensor for a dual trash can?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Pedal bins require no batteries, have no electronic components to fail, and last 5–10 years with daily use. Sensor mechanisms on dual cans are less reliable due to the two-compartment format."}},
+        {"@type": "Question", "name": "How long should a dual trash can last?", "acceptedAnswer": {"@type": "Answer", "text": "A quality dual trash can with a well-engineered pedal mechanism lasts 3–5+ years. Happimess evaluates pedal mechanisms for 500+ open/close cycles per week during a 30-day evaluation before catalog inclusion."}}
+      ]
+    }
+  ]
+}
+</script>
+```
 
-The gap vs. Simplehuman (estimated 90+ citability) is not in content quality but in authority signals: Simplehuman has Wikipedia presence, Wirecutter recommendations, and a decade of press coverage that creates a citation trail AI models follow. Happimess's content quality is strong enough to compete — the brand authority needs to catch up.
+---
 
-*Report generated: May 28, 2026*
+### FIX 6 — JSON-LD: Standard Kitchen Trash Can Size
+**Where:** Blog Posts → Standard Kitchen Trash Can Size → HTML editor → paste before `</body>`
+**Gain: +3 pts on page (70 → 73)**
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Standard Kitchen Trash Can Size: Complete Sizing Guide",
+      "description": "The standard kitchen trash can size in the US is 13 gallons. A 3–4 person household needs 10–13 gallons emptied every 1–3 days. Sizes range from 4 gallons to 21+ gallons.",
+      "author": {"@type": "Organization", "name": "Happimess Editorial Team", "url": "https://happimess.com/pages/about-us"},
+      "publisher": {"@type": "Organization", "name": "Happimess", "url": "https://happimess.com"},
+      "datePublished": "2025-09-22",
+      "dateModified": "2026-05-28",
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://happimess.com/blogs/news/standard-kitchen-trash-can-size"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What is the best trash can size for a family of four?", "acceptedAnswer": {"@type": "Answer", "text": "A 10–13 gallon trash can works best for a family of four, emptied every 1–3 days. This size fits standard tall kitchen bags from all major US retailers."}},
+        {"@type": "Question", "name": "How often should I empty a 10-gallon trash can?", "acceptedAnswer": {"@type": "Answer", "text": "For a family of four, empty every 2–3 days. Wet food waste (fish, meat scraps, cooked food) should be emptied within 24–48 hours regardless of fill level."}},
+        {"@type": "Question", "name": "How high should a standard kitchen trash can be?", "acceptedAnswer": {"@type": "Answer", "text": "Most standard 13-gallon kitchen trash cans are 20–25 inches tall. Under-sink and compact models range from 12–18 inches. Large household cans (15–20+ gallons) stand 24–30 inches."}},
+        {"@type": "Question", "name": "Are stainless steel bins better than plastic?", "acceptedAnswer": {"@type": "Answer", "text": "For primary kitchen use, yes. Stainless steel does not absorb odors over time the way plastic does after 12–18 months. Plastic is lighter and costs less, making it suitable for secondary rooms and lower-traffic spaces."}}
+      ]
+    }
+  ]
+}
+</script>
+```
+
+---
+
+### FIX 8 schema — FAQPage JSON-LD: FAQ Page
+**Where:** Shopify Admin → Online Store → Pages → FAQs → HTML editor → paste at end of content
+**Gain: +3 pts on page (71 → 74)**
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What size kitchen trash can is right for a 3–4 person household?", "acceptedAnswer": {"@type": "Answer", "text": "A 10–13 gallon trash can is right for most 3–4 person households cooking at home 4–7 times per week. This size is emptied every 1–3 days and fits standard 13-gallon kitchen bags from any major retailer."}},
+    {"@type": "Question", "name": "What is the difference between a step-open and a sensor trash can?", "acceptedAnswer": {"@type": "Answer", "text": "Step-open pedal cans require no batteries, have no electronic components to fail, and work in all lighting conditions. Sensor cans close after 3–5 seconds and suit users with mobility limitations. Pedal cans outperform sensor on reliability and long-term cost for most households."}},
+    {"@type": "Question", "name": "How do I stop my kitchen trash can from smelling?", "acceptedAnswer": {"@type": "Answer", "text": "Use a can with a full-perimeter lid seal, empty wet food waste within 24–48 hours regardless of fill level, and ensure the liner bag is anchored at the rim. Stainless steel outlasts plastic on odor resistance because the non-porous surface does not absorb odors after 12–18 months of use."}},
+    {"@type": "Question", "name": "Is stainless steel worth the extra cost for a kitchen trash can?", "acceptedAnswer": {"@type": "Answer", "text": "For a primary kitchen can with daily family use, yes. Stainless steel does not absorb odors like plastic does over 12–24 months. The $40–$100 upfront premium is recovered in a 5–10 year service life vs 2–5 years for plastic."}},
+    {"@type": "Question", "name": "What trash bags fit Happimess trash cans?", "acceptedAnswer": {"@type": "Answer", "text": "Happimess 8-gallon step-open cans use standard 13-gallon kitchen bags. Glad ForceFlex 13-gallon, Hefty Ultra Strong 13-gallon, and Great Value 13-gallon all fit. Happimess scented drawstring liners are specifically sized and tested for these models."}},
+    {"@type": "Question", "name": "When will my order ship?", "acceptedAnswer": {"@type": "Answer", "text": "In-stock orders ship within 1–2 business days (Monday–Friday). You will receive an email confirmation with tracking information when your order ships."}},
+    {"@type": "Question", "name": "What is your return policy?", "acceptedAnswer": {"@type": "Answer", "text": "Returns accepted within 30 days. Pre-paid labels provided for 48 contiguous US states. A $10 return fee per item is deducted. Original packaging required. FINAL SALE and MADE TO ORDER items are not eligible."}},
+    {"@type": "Question", "name": "Does Happimess ship internationally?", "acceptedAnswer": {"@type": "Answer", "text": "Happimess ships to the 48 contiguous United States only. Hawaii, Alaska, and international shipping are not currently available."}}
+  ]
+}
+</script>
+```
+
+---
+
+### BONUS A — Homepage Brand Identity Paragraph
+**Where:** Shopify Admin → Online Store → Themes → Customize → Homepage → add Rich Text section near top
+**Gain: +28 pts on homepage (20 → 48)**
+
+```html
+<p>Happimess is a New York-based home organization brand specializing in kitchen trash cans, storage furniture, and home organization accessories. Every product in the Happimess catalog is evaluated over a minimum 30-day period under real household conditions — including pedal and sensor mechanism testing (500+ open/close cycles), lid seal testing with food waste over 15 days, and liner compatibility testing with Glad, Hefty, and Simplehuman brands. Ships to the 48 contiguous US states.</p>
+```
+
+---
+
+### BONUS B — Homepage FAQPage JSON-LD
+**Where:** `layout/theme.liquid` → inside `<head>` with homepage conditional
+**Gain: +5 pts on homepage**
+
+```html
+{% if request.page_type == 'index' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What is Happimess?", "acceptedAnswer": {"@type": "Answer", "text": "Happimess is a New York-based home organization brand specializing in kitchen trash cans, storage furniture, and home organization accessories. Every product undergoes a minimum 30-day evaluation including pedal mechanism testing (500+ open/close cycles) and liner compatibility testing with Glad, Hefty, and Simplehuman brands."}},
+    {"@type": "Question", "name": "What trash cans does Happimess sell?", "acceptedAnswer": {"@type": "Answer", "text": "Happimess sells step-open pedal trash cans, touchless sensor trash cans, and dual-compartment recycling trash cans. Sizes range from 4-gallon compact models to 13-gallon full-size kitchen cans. All step-open models include a soft-close lid and removable inner bucket."}},
+    {"@type": "Question", "name": "Does Happimess ship internationally?", "acceptedAnswer": {"@type": "Answer", "text": "Happimess ships to the 48 contiguous United States only. Orders ship within 1–2 business days Monday–Friday. Hawaii, Alaska, and international shipping are not currently available."}}
+  ]
+}
+</script>
+{% endif %}
+```
+
+---
+
+## Section 7 — Implementation Checklist (8 Remaining)
+
+| # | Fix | Where | Time | Score Gain |
+|---|-----|-------|------|-----------|
+| 1 | **FIX 2** — Organization + sameAs → `theme.liquid` | theme.liquid `<head>` | 5 min | +3 composite |
+| 2 | **FIX 1** — Article + FAQPage + Speakable → Kitchen Guide | Blog post HTML | 10 min | +6 on page |
+| 3 | **FIX 8 schema** — FAQPage JSON-LD → FAQ page | Page HTML | 5 min | +3 on page |
+| 4 | **FIX 5** — Article + FAQPage → Dual Guide | Blog post HTML | 5 min | +3 on page |
+| 5 | **FIX 6** — Article + FAQPage → Standard Size | Blog post HTML | 5 min | +3 on page |
+| 6 | **BONUS A** — Brand paragraph → Homepage | Theme Customize | 10 min | +28 on homepage |
+| 7 | **BONUS B** — FAQPage JSON-LD → Homepage | theme.liquid conditional | 10 min | +5 on homepage |
+| 8 | **BONUS C** — New "How to Stop Kitchen Trash from Smelling" article | New blog post | 2 hrs | +4 composite |
+
+**All remaining fixes are schema or one new article — zero content rewrites needed.**
+
+---
+
+## Section 8 — Projected Final Scores
+
+| Page | Current | After Schema Fixes | After New Articles |
+|------|---------|-------------------|-------------------|
+| Kitchen Trash Can Guide | 84/100 | **90/100** | 90/100 |
+| About Us | 90/100 | **93/100** | 93/100 |
+| Dual Trash Can Guide | 80/100 | **83/100** | 83/100 |
+| Standard Size | 70/100 | **73/100** | 73/100 |
+| FAQ Page | 71/100 | **74/100** | 74/100 |
+| Homepage | 20/100 | **53/100** | 53/100 |
+| **5-page composite** | **79/100** | **~84/100** | **~88/100** |
+
+---
+
+*Full 6-page live crawl completed: May 28, 2026 — Check 4*
